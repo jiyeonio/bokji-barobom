@@ -1,0 +1,43 @@
+{
+ "opencv_align_photo": {
+  "correct": 33,
+  "total": 33,
+  "preds": 33,
+  "precision": 1.0,
+  "position_only": 33,
+  "inliers": 474,
+  "sec": 0.11
+ },
+ "vlm_clean_full": {
+  "correct": 11,
+  "total": 33,
+  "preds": 85,
+  "precision": 0.129,
+  "position_only": 20,
+  "sec": 95.1
+ },
+ "vlm_clean_halves": {
+  "correct": 30,
+  "total": 33,
+  "preds": 72,
+  "precision": 0.417,
+  "position_only": 30,
+  "sec": 87.6
+ },
+ "vlm_photo_full": {
+  "correct": 3,
+  "total": 33,
+  "preds": 81,
+  "precision": 0.037,
+  "position_only": 4,
+  "sec": 94.6
+ },
+ "vlm_photo_halves": {
+  "correct": 10,
+  "total": 33,
+  "preds": 167,
+  "precision": 0.06,
+  "position_only": 10,
+  "sec": 188.5
+ }
+}

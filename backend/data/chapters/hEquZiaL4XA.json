@@ -1,0 +1,118 @@
+{
+ "youtubeId": "hEquZiaL4XA",
+ "generatedAt": "2026-11-15 04:56",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 55.7,
+   "title": "노인장기요양보험 제도 안내",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 55.7,
+   "end": 97.4,
+   "title": "장기요양급여의 종류 설명",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 97.4,
+   "end": 125.7,
+   "title": "방문요양 서비스 안내",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 125.7,
+   "end": 181.4,
+   "title": "재가급여 종류 설명",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.0
+  },
+  {
+   "start": 181.4,
+   "end": 244.4,
+   "title": "요양원 vs 요양병원 차이",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 244.4,
+   "end": 411.2,
+   "title": "등급별 이용 가능한 급여 종류",
+   "step": 2,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 411.2,
+   "end": 468.3,
+   "title": "시설급여 및 재가급여 부담률",
+   "step": 2,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.998
+  },
+  {
+   "start": 468.3,
+   "end": 491.4,
+   "title": "복지품목 구분 설명",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 491.4,
+   "end": 574.3,
+   "title": "복지용구 이용 조건 안내",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 574.3,
+   "end": 608.5,
+   "title": "복지용구 재구매 안내",
+   "step": 4,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.0
+  },
+  {
+   "start": 608.5,
+   "end": 647.6,
+   "title": "기관 선택 및 계약 체결",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 647.6,
+   "end": 706.2,
+   "title": "급여 계약서 작성 및 동의",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.047
+  },
+  {
+   "start": 706.2,
+   "end": 808.0,
+   "title": "급여계약 해지 필수",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.002
+  }
+ ]
+}

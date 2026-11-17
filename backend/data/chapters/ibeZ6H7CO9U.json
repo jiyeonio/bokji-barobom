@@ -1,0 +1,86 @@
+{
+ "youtubeId": "ibeZ6H7CO9U",
+ "generatedAt": "2026-11-15 04:54",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 99.0,
+   "title": "전세가격 상승, 월세 보조금 관심",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 99.0,
+   "end": 155.5,
+   "title": "지원 대상 및 금액 안내",
+   "step": 1,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 155.5,
+   "end": 177.9,
+   "title": "신청 방법 및 주의사항",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 177.9,
+   "end": 266.0,
+   "title": "청년 주거급여 지원 대상",
+   "step": 1,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 266.0,
+   "end": 289.6,
+   "title": "지원금액 기준 설명",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 289.6,
+   "end": 313.4,
+   "title": "자기부담분 비례 적용 설명",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.0
+  },
+  {
+   "start": 313.4,
+   "end": 424.6,
+   "title": "주거급여 지급 조건 설명",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.003
+  },
+  {
+   "start": 424.6,
+   "end": 475.0,
+   "title": "신청 방법 및 장소 안내",
+   "step": 2,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.999
+  },
+  {
+   "start": 475.0,
+   "end": 520.0,
+   "title": "복지제도 찾기",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  }
+ ]
+}

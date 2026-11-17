@@ -1,0 +1,33 @@
+{
+ "youtubeId": "X7gTHQ1t-Gw",
+ "generatedAt": "2026-11-15 04:57",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 48.4,
+   "title": "민원 처리 불편성 설명",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 48.4,
+   "end": 90.8,
+   "title": "온라인 민원 신청 가능",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 90.8,
+   "end": 172.0,
+   "title": "로그인 후 신청서 선택",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.202
+  }
+ ]
+}

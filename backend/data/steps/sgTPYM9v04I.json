@@ -1,0 +1,24 @@
+{
+ "youtubeId": "sgTPYM9v04I",
+ "status": "auto",
+ "source": "make_chapters",
+ "chapters": [
+  {
+   "id": "s2_2",
+   "start": 114.4,
+   "end": 188.0,
+   "title": "복지용구 급여확인서 확인",
+   "short": "복지용구 급여확",
+   "step": 2,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "인지장애가 있는 어르신이 혼자 외출을 한다면 혹 길을 잃을 때를 대비해서 보호자에게 위치를 알려주는 배회감지기를 착용하는 것도 좋은 방법이죠 복지용구를 이용하기 위해서는 복지용구 사업소와 급여계약을 진행해야 하는데요",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 1.0
+  }
+ ],
+ "generatedAt": "2026-11-15 04:56"
+}

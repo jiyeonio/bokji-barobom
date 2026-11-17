@@ -1,0 +1,32 @@
+{
+ "youtubeId": "cFHJkRDNPr0",
+ "generatedAt": "2026-11-15 04:56",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 86.9,
+   "title": "아이돌봄 서비스 이용 범위",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 10초 이후",
+   "pYes": 0.002
+  },
+  {
+   "start": 86.9,
+   "end": 109.1,
+   "title": "서비스 만족도 조사 & 모니터링",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 109.1,
+   "end": 178.0,
+   "title": "모니터링 방식 안내",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  }
+ ]
+}

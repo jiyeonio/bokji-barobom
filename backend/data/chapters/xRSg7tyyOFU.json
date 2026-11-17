@@ -1,0 +1,50 @@
+{
+ "youtubeId": "xRSg7tyyOFU",
+ "generatedAt": "2026-11-15 04:55",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 26.8,
+   "title": "서울시 월세 대신 지원",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 26.8,
+   "end": 162.9,
+   "title": "청년월세지원금 소개",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 162.9,
+   "end": 185.0,
+   "title": "임대주택 선정 기준 설명",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.004
+  },
+  {
+   "start": 185.0,
+   "end": 207.2,
+   "title": "월세 20만 원 지원 안내",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 207.2,
+   "end": 305.0,
+   "title": "고시원/오피스텔도 지원",
+   "step": 2,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  }
+ ]
+}

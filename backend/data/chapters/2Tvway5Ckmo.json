@@ -1,0 +1,42 @@
+{
+ "youtubeId": "2Tvway5Ckmo",
+ "generatedAt": "2026-11-15 04:56",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 20.9,
+   "title": "상담센터 접속 완료",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 20.9,
+   "end": 70.9,
+   "title": "상위등급 신체검사 절차",
+   "step": 4,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 70.9,
+   "end": 96.7,
+   "title": "신체검사 장소 제한 안내",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 96.7,
+   "end": 242.0,
+   "title": "진단서 제출 불필요",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  }
+ ]
+}

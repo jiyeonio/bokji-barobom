@@ -1,0 +1,31 @@
+{
+ "youtubeId": "xT74Zv4-Cf8",
+ "generatedAt": "2026-11-15 04:57",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 90.5,
+   "title": "채무현황 조회 방법",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 90.5,
+   "end": 114.1,
+   "title": "개인 신용정보 조회 방법",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 114.1,
+   "end": 160.0,
+   "title": "채무 확인 방법 안내",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  }
+ ]
+}

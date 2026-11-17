@@ -1,0 +1,33 @@
+{
+ "youtubeId": "r20_b_22KhU",
+ "generatedAt": "2026-11-15 04:57",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 30.3,
+   "title": "전자문서지갑 다운로드",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말, 10초 이후",
+   "pYes": 0.0
+  },
+  {
+   "start": 30.3,
+   "end": 168.5,
+   "title": "전자문서지갑으로 등본 신청",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.999
+  },
+  {
+   "start": 168.5,
+   "end": 196.0,
+   "title": "생활정보 확인",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  }
+ ]
+}

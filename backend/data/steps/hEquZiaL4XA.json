@@ -1,0 +1,56 @@
+{
+ "youtubeId": "hEquZiaL4XA",
+ "status": "auto",
+ "source": "make_chapters",
+ "chapters": [
+  {
+   "id": "s2_5",
+   "start": 244.4,
+   "end": 411.2,
+   "title": "등급별 이용 가능한 급여 종류",
+   "short": "등급별 이용 가",
+   "step": 2,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "현재 장교양 등급은 1에서 5등급, 인지지원 등급 이렇게 6가지 등급이 있고 등급에 따라 이용할 수 있는 급여 종류나 월 한도액이 다릅니다. 먼저 1등급부터 5등급, 인지지원 등급은 복지용과 주야간 보호를 이용할 수",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 1.0
+  },
+  {
+   "id": "s2_6",
+   "start": 411.2,
+   "end": 468.3,
+   "title": "시설급여 및 재가급여 부담률",
+   "short": "시설급여 및 재",
+   "step": 2,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "시설급여 이용 시에는 1일당 숫가가 고정되어 있으므로 등급별로 정해진 본인부담금을 내시면 되고 식사재료비, 임이용비, 상급 침실 이용료는 비급여 항목으로 전액 본인부담하시면 됩니다. 재가급여는 월 한도액이 설정되어 ",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 0.998
+  },
+  {
+   "id": "s3_10",
+   "start": 608.5,
+   "end": 647.6,
+   "title": "기관 선택 및 계약 체결",
+   "short": "기관 선택 및 ",
+   "step": 3,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "장기요양 서비스는 어떻게 이용할 수 있을까요? 세 가지 서류를 가지고 원하는 기관을 선택하여 계약을 체결하면 되는데요 그러면 기관 선택은 어디와 하느냐? 기관과의 계약은 계약 당사자 간의 자율 계약이므로 잘 따져보고",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 1.0
+  }
+ ],
+ "generatedAt": "2026-11-15 04:56"
+}

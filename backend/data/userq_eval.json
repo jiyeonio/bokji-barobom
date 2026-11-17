@@ -1,0 +1,302 @@
+{
+ "note": "AI 생성·교차 확인, 사람 검수 없음 (질문: 제목·채널·정책만 본 에이전트, 정답: 서로 다른 두 에이전트가 따로 구간을 정하고 일치한 것만)",
+ "created": "2026-11-15",
+ "queries": [
+  {
+   "qid": 1,
+   "youtube_id": "KBBwdz4sidM",
+   "query": "65세 넘으면 매달 나오는 돈 어디 가서 신청해요",
+   "persona": "70대 어르신",
+   "policy_named": false,
+   "vague": false,
+   "intent": "how_to_apply",
+   "expect": "answer",
+   "gt": [
+    [
+     97.7,
+     109.5
+    ],
+    [
+     97.7,
+     109.5
+    ]
+   ],
+   "partial": false,
+   "agree_iou": 1.0
+  },
+  {
+   "qid": 2,
+   "youtube_id": "KBBwdz4sidM",
+   "query": "엄마 기초연금 신청하러 갈때 뭐 챙겨가야돼",
+   "persona": "어르신 대신 알아보는 자녀",
+   "policy_named": true,
+   "vague": false,
+   "intent": "documents",
+   "expect": "answer",
+   "gt": [
+    [
+     118.1,
+     138.6
+    ],
+    [
+     118.1,
+     138.6
+    ]
+   ],
+   "partial": false,
+   "agree_iou": 1.0
+  },
+  {
+   "qid": 3,
+   "youtube_id": "GmxO1AZabqM",
+   "query": "부모님 나라에서 받는 연금 얼마 나오는지 미리 계산해보는 법",
+   "persona": "어르신 대신 알아보는 자녀",
+   "policy_named": false,
+   "vague": false,
+   "intent": "amount",
+   "expect": "answer",
+   "gt": [
+    [
+     57.5,
+     79.8
+    ],
+    [
+     57.5,
+     79.8
+    ]
+   ],
+   "partial": false,
+   "agree_iou": 1.0
+  },
+  {
+   "qid": 4,
+   "youtube_id": "GmxO1AZabqM",
+   "query": "폰으로 계산해보는거 어디 눌러야 나와요",
+   "persona": "70대 어르신",
+   "policy_named": false,
+   "vague": true,
+   "intent": "where_to_click",
+   "expect": "answer",
+   "gt": [
+    [
+     95.3,
+     107.7
+    ],
+    [
+     95.3,
+     107.7
+    ]
+   ],
+   "partial": false,
+   "agree_iou": 1.0
+  },
+  {
+   "qid": 6,
+   "youtube_id": "ZUQkLBNQSyk",
+   "query": "형편 어려운 집은 아이돌봄 요금 지원 더 많이 받나요",
+   "persona": "형편이 어려워진 중년",
+   "policy_named": true,
+   "vague": false,
+   "intent": "amount",
+   "expect": "answer",
+   "gt": [],
+   "no_answer": true
+  },
+  {
+   "qid": 7,
+   "youtube_id": "cFHJkRDNPr0",
+   "query": "돌보미 선생님 집에 오시면 부모가 지켜야 할 거",
+   "persona": "아이 키우는 부모",
+   "policy_named": false,
+   "vague": false,
+   "intent": "other",
+   "expect": "answer",
+   "gt": [
+    [
+     22.8,
+     36.5
+    ],
+    [
+     22.8,
+     36.5
+    ]
+   ],
+   "partial": false,
+   "agree_iou": 1.0
+  },
+  {
+   "qid": 8,
+   "youtube_id": "0EHrOLh7lZo",
+   "query": "자취하는 취준생인데 월세 매달 20만원 주는거 나도 되나",
+   "persona": "취업 준비 청년",
+   "policy_named": false,
+   "vague": false,
+   "intent": "eligibility",
+   "expect": "answer",
+   "gt": [
+    [
+     11.4,
+     20.4
+    ],
+    [
+     6.0,
+     20.4
+    ]
+   ],
+   "partial": false,
+   "agree_iou": 0.62
+  },
+  {
+   "qid": 10,
+   "youtube_id": "H-oqT3Sthl4",
+   "query": "서울 사는 청년 월세 지원 신청 어디서 해요",
+   "persona": "취업 준비 청년",
+   "policy_named": true,
+   "vague": false,
+   "intent": "how_to_apply",
+   "expect": "answer",
+   "gt": [
+    [
+     134.0,
+     141.0
+    ],
+    [
+     133.0,
+     138.0
+    ]
+   ],
+   "partial": true,
+   "agree_iou": 0.5
+  },
+  {
+   "qid": 12,
+   "youtube_id": "1tEk_OytD7Y",
+   "query": "행복주택 청약 신청 화면 어디서 들어가요",
+   "persona": "취업 준비 청년",
+   "policy_named": true,
+   "vague": false,
+   "intent": "where_to_click",
+   "expect": "answer",
+   "gt": [
+    [
+     10.4,
+     26.3
+    ],
+    [
+     10.4,
+     26.3
+    ]
+   ],
+   "partial": false,
+   "agree_iou": 1.0
+  },
+  {
+   "qid": 14,
+   "youtube_id": "hEquZiaL4XA",
+   "query": "요양등급 받으면 우리가 내는 돈은 몇 프로예요",
+   "persona": "거동이 불편한 부모를 둔 가족",
+   "policy_named": false,
+   "vague": false,
+   "intent": "amount",
+   "expect": "answer",
+   "gt": [
+    [
+     441.9,
+     454.1
+    ],
+    [
+     441.9,
+     448.4
+    ]
+   ],
+   "partial": false,
+   "agree_iou": 0.53
+  },
+  {
+   "qid": 15,
+   "youtube_id": "sgTPYM9v04I",
+   "query": "어머니 휠체어나 보행기 싸게 빌리는 방법",
+   "persona": "거동이 불편한 부모를 둔 가족",
+   "policy_named": false,
+   "vague": false,
+   "intent": "how_to_apply",
+   "expect": "answer",
+   "gt": [
+    [
+     19.1,
+     36.1
+    ],
+    [
+     19.1,
+     36.1
+    ]
+   ],
+   "partial": false,
+   "agree_iou": 1.0
+  },
+  {
+   "qid": 19,
+   "youtube_id": "VC1N6tu9s88",
+   "query": "치매 조기검진 받으면 그다음엔 뭐 해요",
+   "persona": "어르신 대신 알아보는 자녀",
+   "policy_named": true,
+   "vague": false,
+   "intent": "how_to_apply",
+   "expect": "answer",
+   "gt": [
+    [
+     132.2,
+     154.4
+    ],
+    [
+     202.5,
+     214.0
+    ]
+   ],
+   "partial": false,
+   "agree_iou": 0.82
+  }
+ ],
+ "dropped": [
+  {
+   "qid": 5,
+   "reason": "두 번째 확인 자신 낮음",
+   "query": "애 봐주는 사람 부르려면 앱에서 어떻게 신청해"
+  },
+  {
+   "qid": 9,
+   "reason": "두 번째 확인 자신 낮음",
+   "query": "청년월세 지원 올해도 아직 신청 받아요?"
+  },
+  {
+   "qid": 11,
+   "reason": "구간 불일치 IoU 0.00",
+   "query": "부모님이랑 따로 사는데 저 혼자 집세 지원 따로 받을 수 있어요?"
+  },
+  {
+   "qid": 13,
+   "reason": "두 번째 확인 자신 낮음",
+   "query": "거동 불편한 아버지 집으로 요양보호사 오게 하려면 어떻게 해요"
+  },
+  {
+   "qid": 16,
+   "reason": "구간 불일치 IoU 0.43",
+   "query": "노인일자리 신청 기간 언제까지예요"
+  },
+  {
+   "qid": 17,
+   "reason": "두 번째 확인 자신 낮음",
+   "query": "일흔 넘었는데 동네서 소일거리 하고 용돈 버는거 하고싶어"
+  },
+  {
+   "qid": 18,
+   "reason": "구간 불일치 IoU 0.41",
+   "query": "요즘 자꾸 깜빡깜빡하는데 기억력 검사 받을 데 있나"
+  },
+  {
+   "qid": 20,
+   "reason": "정답 있음/없음 불일치",
+   "query": "일 그만두고 월세 내기 빠듯한데 나라에서 집세 좀 보태주는거 있나"
+  }
+ ]
+}

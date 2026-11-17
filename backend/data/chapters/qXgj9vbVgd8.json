@@ -1,0 +1,79 @@
+{
+ "youtubeId": "qXgj9vbVgd8",
+ "generatedAt": "2026-11-15 04:58",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 137.6,
+   "title": "모바일 앱 로그인 및 신청 시작",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: 10초 이후",
+   "pYes": 1.0
+  },
+  {
+   "start": 137.6,
+   "end": 167.6,
+   "title": "병역·결혼 상태 입력",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 167.6,
+   "end": 205.4,
+   "title": "계좌정보 등록",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 205.4,
+   "end": 338.8,
+   "title": "온라인 금융교육 이수",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 338.8,
+   "end": 373.1,
+   "title": "본인 납부금액 입력",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 373.1,
+   "end": 417.7,
+   "title": "등록금 대출 금액 입력",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 417.7,
+   "end": 440.8,
+   "title": "생활비 금액 설정",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 440.8,
+   "end": 483.0,
+   "title": "대출 약정 체결",
+   "step": 4,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  }
+ ]
+}

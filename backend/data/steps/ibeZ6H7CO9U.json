@@ -1,0 +1,56 @@
+{
+ "youtubeId": "ibeZ6H7CO9U",
+ "status": "auto",
+ "source": "make_chapters",
+ "chapters": [
+  {
+   "id": "s1_1",
+   "start": 99.0,
+   "end": 155.5,
+   "title": "지원 대상 및 금액 안내",
+   "short": "지원 대상 및 ",
+   "step": 1,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "바로 부모님 등 가족의 소득을 말합니다 하지만 예외도 있어요 30세 이상이거나 결혼했거나 미혼 부모이거나 30세 미만이지만 소득이 높아서 부모님과 경제적으로 독립했다면 원가구 소득은 고려하지 않습니다. 얼마나 지원받",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 1.0
+  },
+  {
+   "id": "s1_3",
+   "start": 177.9,
+   "end": 266.0,
+   "title": "청년 주거급여 지원 대상",
+   "short": "청년 주거급여 ",
+   "step": 1,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "신청기간은 놓치지 말고 잘 확인하셔서 신청하세요 지금부터 청년들의 주거안정을 위한 중요한 정보 바로 청년 주거급여 분리지급에 대해 알아보겠습니다 누가 지원받을 수 있냐고요? 먼저 19세 이상 30세 미만의 미혼 자녀",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 1.0
+  },
+  {
+   "id": "s2_7",
+   "start": 424.6,
+   "end": 475.0,
+   "title": "신청 방법 및 장소 안내",
+   "short": "신청 방법 및 ",
+   "step": 2,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "의비나 면지역은 100제곱미터까지 가능합니다 또한 대출 접수일 현재 담보주택의 평가액이 6억 원 이하여야 합니다. 마지막으로 어디에서 신청할 수 있을까요? 주거급여를 받는 가구에 가구주가 거주하는 읍면동 행정복지센터",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 0.999
+  }
+ ],
+ "generatedAt": "2026-11-15 04:54"
+}

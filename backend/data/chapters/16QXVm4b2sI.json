@@ -1,0 +1,32 @@
+{
+ "youtubeId": "16QXVm4b2sI",
+ "generatedAt": "2026-11-15 04:57",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 63.6,
+   "title": "중소기업 근로자 자녀 장학금",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 10초 이후",
+   "pYes": 0.001
+  },
+  {
+   "start": 63.6,
+   "end": 88.8,
+   "title": "중소기업 근로자 자녀 장학금",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 88.8,
+   "end": 122.0,
+   "title": "3.1절 기념식 생방송 안내",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  }
+ ]
+}

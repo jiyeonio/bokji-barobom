@@ -1,0 +1,24 @@
+{
+ "youtubeId": "cruEwpl3hxU",
+ "status": "auto",
+ "source": "make_chapters",
+ "chapters": [
+  {
+   "id": "s1_8",
+   "start": 534.0,
+   "end": 557.6,
+   "title": "검사비 지원 대상 안내",
+   "short": "검사비 지원 대",
+   "step": 1,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "건강보험료소득기준에 따라 중위소득 120% 이하인 분들은 검사비의 일부를 지원받을 수 있습니다. 종합병원은 8만원까지, 상급종합병원은 11만원까지 지원받습니다 기타 자세한 사항이나 궁금한 것이 있으신가요?",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 1.0
+  }
+ ],
+ "generatedAt": "2026-11-15 04:56"
+}

@@ -1,0 +1,97 @@
+{
+ "youtubeId": "gU2aUgEG5zk",
+ "generatedAt": "2026-11-15 04:58",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 48.9,
+   "title": "모바일로 서류 제출",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 10초 이후",
+   "pYes": 0.001
+  },
+  {
+   "start": 48.9,
+   "end": 72.9,
+   "title": "네이버 부동산 앱 설치",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.0
+  },
+  {
+   "start": 72.9,
+   "end": 151.8,
+   "title": "예상 보증료 및 서류 조회",
+   "step": 2,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 151.8,
+   "end": 253.6,
+   "title": "필요 서류: 전입내역서",
+   "step": 2,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.982
+  },
+  {
+   "start": 253.6,
+   "end": 315.7,
+   "title": "보증가입 신청",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.988
+  },
+  {
+   "start": 315.7,
+   "end": 403.0,
+   "title": "주소지 검색 실패 대응",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.989
+  },
+  {
+   "start": 403.0,
+   "end": 467.8,
+   "title": "보증료 결제 안내",
+   "step": 4,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.001
+  },
+  {
+   "start": 467.8,
+   "end": 494.6,
+   "title": "전세보증금 반환 보증 신청",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.679
+  },
+  {
+   "start": 494.6,
+   "end": 541.8,
+   "title": "보증 가입 신청",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.893
+  },
+  {
+   "start": 541.8,
+   "end": 589.0,
+   "title": "모바일 서류 제출",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.007
+  }
+ ]
+}

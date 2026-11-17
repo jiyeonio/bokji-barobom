@@ -1,0 +1,49 @@
+{
+ "youtubeId": "QXkWG4bvfSw",
+ "generatedAt": "2026-11-15 04:57",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 91.3,
+   "title": "나의 삶의 마무리",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 91.3,
+   "end": 122.3,
+   "title": "가족들 걱정 마요",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 122.3,
+   "end": 190.2,
+   "title": "사전연명 신청을 위한 메시지",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 190.2,
+   "end": 210.3,
+   "title": "사전연명 의료의향서란?",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 210.3,
+   "end": 297.0,
+   "title": "사전연명의료의향서 등록",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  }
+ ]
+}

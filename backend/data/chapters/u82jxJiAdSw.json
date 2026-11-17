@@ -1,0 +1,24 @@
+{
+ "youtubeId": "u82jxJiAdSw",
+ "generatedAt": "2026-11-15 04:56",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 23.4,
+   "title": "엄마 혼내는 아이 돌보기",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 23.4,
+   "end": 61.0,
+   "title": "일시연계 신청 절차 설명",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.893
+  }
+ ]
+}

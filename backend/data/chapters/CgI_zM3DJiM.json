@@ -1,0 +1,61 @@
+{
+ "youtubeId": "CgI_zM3DJiM",
+ "generatedAt": "2026-11-15 04:57",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 34.4,
+   "title": "국민 내일 배움 카드 신청",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 10초 이후",
+   "pYes": 0.182
+  },
+  {
+   "start": 34.4,
+   "end": 146.1,
+   "title": "신청 자격 확인",
+   "step": 1,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.997
+  },
+  {
+   "start": 146.1,
+   "end": 184.5,
+   "title": "개인 정보 입력",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 184.5,
+   "end": 237.3,
+   "title": "지원 자격 확인",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.245
+  },
+  {
+   "start": 237.3,
+   "end": 321.5,
+   "title": "실물 카드 정보 입력",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 321.5,
+   "end": 369.0,
+   "title": "동의 및 신청 영역",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.755
+  }
+ ]
+}

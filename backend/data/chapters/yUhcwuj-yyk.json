@@ -1,0 +1,33 @@
+{
+ "youtubeId": "yUhcwuj-yyk",
+ "generatedAt": "2026-11-15 04:56",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 36.0,
+   "title": "모의계산 서비스 이용해보기",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말, 10초 이후",
+   "pYes": 0.294
+  },
+  {
+   "start": 36.0,
+   "end": 98.0,
+   "title": "65세 이상者 신청",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.0
+  },
+  {
+   "start": 98.0,
+   "end": 161.0,
+   "title": "복지 신청 안내",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "youtubeId": "CgI_zM3DJiM",
+ "status": "auto",
+ "source": "make_chapters",
+ "chapters": [
+  {
+   "id": "s1_1",
+   "start": 34.4,
+   "end": 146.1,
+   "title": "신청 자격 확인",
+   "short": "신청 자격 확인",
+   "step": 1,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "13가지의 신청 자격 확인 후 예, 아니오 버튼을 선택하시면 됩니다. 항목에 대한 자세한 조건이 궁금하신 경우에는 관할 고용센터로 연락하시면 됩니다. 다음 버튼을 클릭하면 신청 자격이 임시 저장되고 다음 화면으로 이",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 0.997
+  },
+  {
+   "id": "s3_2",
+   "start": 146.1,
+   "end": 184.5,
+   "title": "개인 정보 입력",
+   "short": "개인 정보 입력",
+   "step": 3,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "다음 버튼을 클릭하면 권리 및 의무사항이 임시 저장되고 다음 화면으로 이동합니다. 기본 사항을 모두 입력합니다. 영문 성명 입력은 실물 카드 신청 시 사용됩니다 회원 정보 수정 버튼을 클릭하면 개인 회원 정보 수정 ",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 1.0
+  },
+  {
+   "id": "s3_4",
+   "start": 237.3,
+   "end": 321.5,
+   "title": "실물 카드 정보 입력",
+   "short": "실물 카드 정보",
+   "step": 3,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "실물 카드 정보 영역입니다. 카드 발급 구분은 실물 카드가 없을 경우 신규 발급, 기존에 발급받은 유효한 카드가 있을 경우 기존 카드 재사용을 선택합니다. 제휴카드는 원하시는 카드사를 선택하시면 됩니다. 카드 유형은",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 1.0
+  },
+  {
+   "id": "s3_5",
+   "start": 321.5,
+   "end": 369.0,
+   "title": "동의 및 신청 영역",
+   "short": "동의 및 신청 ",
+   "step": 3,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "다음 버튼을 클릭하면 발급 신청서가 저장되고 다음 화면으로 이동합니다 동의 및 신청 영역입니다 4개의 개인정보 제공 동의 및 1개의 행정정보 공동이용 동의 여부를 선택하시면 됩니다 동의 여부가 필수일 경우 아니오 선",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 0.755
+  }
+ ],
+ "generatedAt": "2026-11-15 04:57"
+}

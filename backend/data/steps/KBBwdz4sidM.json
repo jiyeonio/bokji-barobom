@@ -1,0 +1,32 @@
+{
+ "youtubeId": "KBBwdz4sidM",
+ "policyId": "basic-pension",
+ "status": "reviewed",
+ "chapters": [
+  {
+   "id": "s2",
+   "start": 109.0,
+   "end": 138.0,
+   "title": "신청할 때 필요한 서류",
+   "short": "서류",
+   "step": 2,
+   "stepLabel": "2단계 · 서류 준비",
+   "verification": "subtitle",
+   "subtitle": "이게 바로 기초연금을 신청할 때 작성하는 신청서인가요? 네, 그렇습니다. 우선 기초연금을 받으실 통장이 필요하고요. 그다음에 본인 신분증 그리고 필수서류로 사회보장급여신청서, 소득재산신고서, 금융정보제공동의서가 필요한데",
+   "screenTitle": "",
+   "relatedDocs": [
+    "basic-pension-doc1",
+    "basic-pension-doc3",
+    "basic-pension-doc4",
+    "basic-pension-doc5"
+   ],
+   "draft": {
+    "query": "기초연금 신청할 때 필요한 서류",
+    "pAnswer": 0.798,
+    "pScreen": 0.01
+   }
+  }
+ ],
+ "generatedAt": "2026-11-12 07:10",
+ "reviewNote": "2026-11-12 사용자 검수: ②단계만 남김. 구간은 자막 기준 1:49~2:18(서류 설명)"
+}

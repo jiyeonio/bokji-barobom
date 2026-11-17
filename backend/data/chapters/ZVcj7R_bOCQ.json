@@ -1,0 +1,76 @@
+{
+ "youtubeId": "ZVcj7R_bOCQ",
+ "generatedAt": "2026-11-15 04:58",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 128.6,
+   "title": "노인 일자리 부적격에 당황",
+   "step": 4,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말, 10초 이후",
+   "pYes": 0.0
+  },
+  {
+   "start": 128.6,
+   "end": 230.6,
+   "title": "생계급여 신청 시 제한 사항",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.001
+  },
+  {
+   "start": 230.6,
+   "end": 253.0,
+   "title": "사업 참여 여부 논의",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 253.0,
+   "end": 301.3,
+   "title": "노인 일자리 선택 제한",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 301.3,
+   "end": 321.7,
+   "title": "노인 일자리 사업 전일제",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 321.7,
+   "end": 406.1,
+   "title": "노인공익활동 참여 조건",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말",
+   "pYes": 0.999
+  },
+  {
+   "start": 406.1,
+   "end": 458.0,
+   "title": "해외 이동 미리 안내",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.001
+  },
+  {
+   "start": 458.0,
+   "end": 484.0,
+   "title": "수영 활동비 환수 및 제한",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  }
+ ]
+}

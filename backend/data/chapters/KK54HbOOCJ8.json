@@ -1,0 +1,33 @@
+{
+ "youtubeId": "KK54HbOOCJ8",
+ "generatedAt": "2026-11-15 04:57",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 22.6,
+   "title": "에너지 바우처 지원 안내",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 22.6,
+   "end": 93.2,
+   "title": "에너지 바우처 신청 안내",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 93.2,
+   "end": 121.0,
+   "title": "에너지 바우처 신청 안내",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  }
+ ]
+}

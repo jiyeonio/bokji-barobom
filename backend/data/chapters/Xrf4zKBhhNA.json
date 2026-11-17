@@ -1,0 +1,32 @@
+{
+ "youtubeId": "Xrf4zKBhhNA",
+ "generatedAt": "2026-11-15 04:56",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 48.0,
+   "title": "노인일자리 및 사회활동 지원사업",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말, 10초 이후",
+   "pYes": 0.998
+  },
+  {
+   "start": 48.0,
+   "end": 118.0,
+   "title": "유사/종복사업 동참 관리",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 118.0,
+   "end": 150.0,
+   "title": "2020년도 복지 지원 지속",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  }
+ ]
+}

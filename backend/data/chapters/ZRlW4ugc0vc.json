@@ -1,0 +1,49 @@
+{
+ "youtubeId": "ZRlW4ugc0vc",
+ "generatedAt": "2026-11-15 04:56",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 29.5,
+   "title": "노인의 입자리 모집 안내",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 29.5,
+   "end": 61.0,
+   "title": "노인의 자리 사업 설명",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 61.0,
+   "end": 197.2,
+   "title": "복지 혜택의 효과 설명",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 197.2,
+   "end": 236.2,
+   "title": "노인일자리 신청 방법",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.001
+  },
+  {
+   "start": 236.2,
+   "end": 327.0,
+   "title": "신청 완료 후 확인 방법",
+   "step": 4,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  }
+ ]
+}

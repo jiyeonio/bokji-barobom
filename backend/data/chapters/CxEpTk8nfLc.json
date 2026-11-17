@@ -1,0 +1,88 @@
+{
+ "youtubeId": "CxEpTk8nfLc",
+ "generatedAt": "2026-11-15 04:55",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 53.5,
+   "title": "이직확인서 작성방법",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: 10초 이후",
+   "pYes": 0.991
+  },
+  {
+   "start": 53.5,
+   "end": 85.0,
+   "title": "사업장 및 피보험자 정보 입력",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.996
+  },
+  {
+   "start": 85.0,
+   "end": 115.0,
+   "title": "피보험자격 취득일과 이직일",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말",
+   "pYes": 1.0
+  },
+  {
+   "start": 115.0,
+   "end": 146.4,
+   "title": "이직사유 구분 코드 입력",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.996
+  },
+  {
+   "start": 146.4,
+   "end": 270.3,
+   "title": "퇴사일자 기간 작성",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.991
+  },
+  {
+   "start": 270.3,
+   "end": 311.6,
+   "title": "퇴사일 기초일수 산정",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.004
+  },
+  {
+   "start": 311.6,
+   "end": 360.9,
+   "title": "기준기간 연장 및 임금계산기간 작성",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.999
+  },
+  {
+   "start": 360.9,
+   "end": 533.4,
+   "title": "임금 구성 항목 설명",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.047
+  },
+  {
+   "start": 533.4,
+   "end": 554.0,
+   "title": "문의사항 연락처 제공",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.223
+  }
+ ]
+}

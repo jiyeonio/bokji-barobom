@@ -1,0 +1,56 @@
+{
+ "youtubeId": "AKf06ir8DOc",
+ "status": "auto",
+ "source": "make_chapters",
+ "chapters": [
+  {
+   "id": "s1_1",
+   "start": 78.8,
+   "end": 124.5,
+   "title": "학자금 지원구간 확인",
+   "short": "학자금 지원구간",
+   "step": 1,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "우선 국가장학금 1유형과 다자녀 국가장학금의 지원 자격을 살펴볼까요? 먼저 소득재산조사를 통해 산정된 학생가구의 학자금 지원구간이 9구간 이하에 해당해야 합니다. 2024년까지 기존 8구간 이하 가구의 학생들에게 지",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 0.867
+  },
+  {
+   "id": "s3_3",
+   "start": 301.6,
+   "end": 326.0,
+   "title": "신청 정보 등록",
+   "short": "신청 정보 등록",
+   "step": 3,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "스텝 3. 약관 동의 학자금 지원 신청을 위해 개인정보 수집, 이용 제공 및 조회 동의서 등을 꼼꼼히 확인하고 동의합니다. 스텝 4. 신청 정보 등록 신청 정보를 등록합니다. 신청 학생이 미혼인 경우에는 부모 정보를",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 1.0
+  },
+  {
+   "id": "s3_4",
+   "start": 326.0,
+   "end": 365.5,
+   "title": "전자서명 및 인증 절차",
+   "short": "전자서명 및 인",
+   "step": 3,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "국가장학금과 학자금 대출 제도를 안내하는 이러닝 과정을 이수합니다 학자금 대출을 신청할 경우 교육수강 후 진단평가 70점 이상이 되어야 이수가 완료됩니다 스텝 6. 전자서명 마지막으로 공동인증서나 금융인증서 또는 간",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 0.999
+  }
+ ],
+ "generatedAt": "2026-11-15 04:56"
+}

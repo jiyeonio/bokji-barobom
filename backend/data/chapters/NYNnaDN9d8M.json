@@ -1,0 +1,97 @@
+{
+ "youtubeId": "NYNnaDN9d8M",
+ "generatedAt": "2026-11-15 04:54",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 23.3,
+   "title": "온라인 신청 전 준비",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 10초 이후",
+   "pYes": 0.0
+  },
+  {
+   "start": 23.3,
+   "end": 49.3,
+   "title": "기초연금 신청 방법",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 49.3,
+   "end": 109.2,
+   "title": "기초연금 신청 절차",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.999
+  },
+  {
+   "start": 109.2,
+   "end": 157.8,
+   "title": "개인정보 동의 확인",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.993
+  },
+  {
+   "start": 157.8,
+   "end": 209.7,
+   "title": "신청인 및 배우자 정보 입력",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 209.7,
+   "end": 274.2,
+   "title": "서비스 선택 및 체크",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.996
+  },
+  {
+   "start": 274.2,
+   "end": 430.4,
+   "title": "금융정보 제공 동의 선택",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.963
+  },
+  {
+   "start": 430.4,
+   "end": 493.7,
+   "title": "기초연금 계좌 및 신청 여부 입력",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.998
+  },
+  {
+   "start": 493.7,
+   "end": 554.3,
+   "title": "소득재산 입력 및 서류 첨부",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 554.3,
+   "end": 601.0,
+   "title": "신청서 제출 및 확인",
+   "step": 4,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  }
+ ]
+}

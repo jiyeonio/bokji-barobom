@@ -1,0 +1,158 @@
+{
+ "youtubeId": "D_Qy8B3wJJk",
+ "generatedAt": "2026-11-15 07:04",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 25.5,
+   "title": "기초연금 모바일 신청",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말, 10초 이후",
+   "pYes": 0.002
+  },
+  {
+   "start": 25.5,
+   "end": 165.5,
+   "title": "모바일 신청 가능 여부 확인",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.011
+  },
+  {
+   "start": 165.5,
+   "end": 300.2,
+   "title": "소득인정액 산정 필요",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.0
+  },
+  {
+   "start": 300.2,
+   "end": 372.1,
+   "title": "서류 준비 안내",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.047
+  },
+  {
+   "start": 372.1,
+   "end": 395.2,
+   "title": "안드로이드폰 앱 설치",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 395.2,
+   "end": 430.4,
+   "title": "복지로 앱 설치 안내",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 430.4,
+   "end": 518.5,
+   "title": "기초연금 신청",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.996
+  },
+  {
+   "start": 518.5,
+   "end": 586.5,
+   "title": "신청정보 입력 및 가구원 구성",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 586.5,
+   "end": 629.6,
+   "title": "기초연금 선택 및 가족 정보",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 629.6,
+   "end": 671.1,
+   "title": "부부 동시 신청 설정",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 671.1,
+   "end": 865.8,
+   "title": "배우자 정보 추가",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 865.8,
+   "end": 910.5,
+   "title": "휴대전화 요금감면 신청",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 910.5,
+   "end": 1178.6,
+   "title": "금융정보 제공 동의",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 1178.6,
+   "end": 1236.9,
+   "title": "소득재산 대상자 선택",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 1236.9,
+   "end": 1257.2,
+   "title": "부채 정보 입력",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 1257.2,
+   "end": 1420.5,
+   "title": "부채 증빙서류 등록",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 1420.5,
+   "end": 1450.0,
+   "title": "기초연금 신청 안내",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.004
+  }
+ ]
+}

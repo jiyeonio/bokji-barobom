@@ -1,0 +1,51 @@
+{
+ "youtubeId": "_18u1JS6oh4",
+ "generatedAt": "2026-11-15 04:57",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 178.2,
+   "title": "버팀목 자금 확인 신청",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 10초 이후",
+   "pYes": 0.047
+  },
+  {
+   "start": 178.2,
+   "end": 202.5,
+   "title": "계좌 인증 입력",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.997
+  },
+  {
+   "start": 202.5,
+   "end": 232.1,
+   "title": "서류 첨부 요청 화면",
+   "step": 2,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.947
+  },
+  {
+   "start": 232.1,
+   "end": 287.2,
+   "title": "신청 완료 확인",
+   "step": 4,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 287.2,
+   "end": 317.0,
+   "title": "문의처 안내",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  }
+ ]
+}

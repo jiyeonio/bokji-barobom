@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SceneFinder 라벨링</title>
+<style>
+  :root { --bg: #f6f7f9; --panel: #fff; --line: #d9dde3; --text: #1d2330; --muted: #677085; --accent: #2f6fed; --s: #1f8a5b; --v: #b4581b; --err: #c62828; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 14px/1.45 system-ui, -apple-system, "Segoe UI", "Noto Sans KR", sans-serif; background: var(--bg); color: var(--text); }
+  header { display: flex; align-items: center; gap: 16px; padding: 10px 16px; background: var(--panel); border-bottom: 1px solid var(--line); }
+  header h1 { font-size: 16px; margin: 0; }
+  #status { margin-left: auto; color: var(--muted); }
+  #status.err { color: var(--err); font-weight: 600; }
+  main { display: grid; grid-template-columns: 240px minmax(0, 1fr) 380px; gap: 12px; padding: 12px; height: calc(100vh - 49px); }
+  section { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px; overflow: auto; }
+  h2 { font-size: 13px; margin: 0 0 8px; color: var(--muted); font-weight: 600; }
+  #videoList button { display: block; width: 100%; text-align: left; border: 1px solid transparent; background: none; padding: 6px 8px; border-radius: 6px; cursor: pointer; font: inherit; color: inherit; word-break: break-all; }
+  #videoList button:hover { background: var(--bg); }
+  #videoList button.on { border-color: var(--accent); background: #eef3ff; }
+  #videoList small { color: var(--muted); display: block; }
+  video { width: 100%; max-height: 58vh; background: #000; border-radius: 6px; }
+  #ytWrap { position: relative; width: 100%; aspect-ratio: 16 / 9; max-height: 58vh; background: #000; border-radius: 6px; overflow: hidden; }
+  #ytWrap iframe, #ytWrap > div { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .badge { display: inline-block; font-size: 10px; font-weight: 700; border-radius: 4px; padding: 0 4px; margin-right: 4px; color: #fff; background: #c4302b; vertical-align: 1px; }
+  .badge.local { background: var(--muted); }
+  #addYt { display: flex; gap: 4px; margin-bottom: 8px; }
+  #addYt input { flex: 1; min-width: 0; }
+  .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin: 6px 0; }
+  .time { font: 600 20px ui-monospace, monospace; min-width: 120px; }
+  label.f { display: flex; flex-direction: column; gap: 2px; font-size: 12px; color: var(--muted); }
+  input, textarea, select { font: inherit; color: inherit; border: 1px solid var(--line); border-radius: 6px; padding: 5px 7px; background: #fff; }
+  input.num { width: 84px; font-family: ui-monospace, monospace; }
+  textarea { width: 100%; resize: vertical; min-height: 54px; }
+  button.b { font: inherit; border: 1px solid var(--line); background: #fff; border-radius: 6px; padding: 5px 10px; cursor: pointer; }
+  button.b:hover { border-color: var(--accent); }
+  button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  button.danger { color: var(--err); }
+  .seg { display: inline-flex; gap: 4px; align-items: center; background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 1px 4px 1px 8px; font: 12px ui-monospace, monospace; margin: 2px 4px 2px 0; }
+  .seg button { border: 0; background: none; cursor: pointer; padding: 0 3px; font: inherit; }
+  .q { border-top: 1px solid var(--line); padding: 8px 0; }
+  .q.editing { background: #fff8e6; }
+  .tag { display: inline-block; font-weight: 700; font-size: 11px; color: #fff; border-radius: 4px; padding: 0 5px; margin-right: 4px; }
+  .tag.S { background: var(--s); } .tag.V { background: var(--v); }
+  .src { display: inline-block; font-size: 11px; border-radius: 4px; padding: 0 5px; margin-left: 4px; border: 1px solid; }
+  .src.ai_draft { color: #a15c00; border-color: #e3b066; background: #fff6e6; }
+  .src.human_reviewed { color: var(--s); border-color: #8fcfb0; background: #eaf7f0; }
+  .src.human, .src.human_written { color: #2457a6; border-color: #9db8e6; background: #eef3fc; }
+  .tag.N { background: #888; }
+  .src.sim { color: #7a3fb0; border-color: #c9a8e8; background: #f6effc; }
+  .src.overlay { color: #5b3fb5; border-color: #b9a8ea; background: #f3effd; }
+  #progress { font-weight: 600; }
+  .listHead { display: flex; align-items: center; justify-content: space-between; margin-top: 14px; }
+  .listHead h2 { margin: 0; }
+  .muted { color: var(--muted); font-size: 12px; }
+  .help { color: var(--muted); font-size: 12px; margin-top: 8px; }
+  kbd { font: 11px ui-monospace, monospace; border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px; padding: 0 4px; background: #fff; }
+  .types label { margin-right: 10px; }
+  #errors { color: var(--err); font-size: 12px; white-space: pre-line; }
+</style>
+</head>
+<body>
+<header>
+  <h1>SceneFinder 평가 질의 라벨링</h1>
+  <span id="counts" class="muted"></span>
+  <span id="progress"></span>
+  <span id="status">불러오는 중…</span>
+  <button class="b" id="download">JSON 내려받기</button>
+</header>
+<main>
+  <section>
+    <h2>영상</h2>
+    <div id="addYt"><input id="ytInput" placeholder="YouTube 주소 또는 ID"><button class="b" id="ytAdd">추가</button></div>
+    <div id="videoList"></div>
+  </section>
+
+  <section>
+    <video id="player" controls preload="metadata"></video>
+    <div id="ytWrap" hidden><div id="yt"></div></div>
+    <div class="row">
+      <span class="time" id="now">0.0</span>
+      <span class="muted" id="dur"></span>
+      <select id="rate" title="재생 속도">
+        <option value="0.5">0.5×</option><option value="0.75">0.75×</option>
+        <option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option>
+      </select>
+      <span id="modeBox" hidden>재생:
+        <label><input type="radio" name="pmode" value="yt"> YouTube</label>
+        <label><input type="radio" name="pmode" value="local"> 로컬 파일</label>
+      </span>
+    </div>
+    <div id="playerMsg" class="muted"></div>
+    <h2>영상 정보</h2>
+    <div class="row">
+      <label class="f">키 (영문·숫자·_·-)<input id="vKey" size="14"></label>
+      <label class="f">표시 이름<input id="vName" size="12"></label>
+      <label class="f">분야<input id="vDomain" size="10" list="domains"></label>
+      <datalist id="domains"><option>요리</option><option>운동</option><option>쇼핑·리뷰</option><option>생활</option><option>교육</option><option>뉴스</option><option>여행</option></datalist>
+    </div>
+    <div class="muted" id="vFile"></div>
+    <div class="help">
+      <kbd>Space</kbd> 재생/정지 · <kbd>←</kbd><kbd>→</kbd> 1초 · <kbd>Shift</kbd>+<kbd>←</kbd><kbd>→</kbd> 5초 ·
+      <kbd>,</kbd><kbd>.</kbd> 0.1초 · <kbd>[</kbd> 시작 찍기 · <kbd>]</kbd> 끝 찍기 · <kbd>Enter</kbd>(입력칸 밖) 구간 추가.
+      입력칸에 글을 쓰는 동안에는 단축키가 동작하지 않습니다 (<kbd>Esc</kbd>로 입력칸에서 나가기).
+      YouTube 화면을 눌러도 단축키는 이 페이지로 돌아옵니다. 시간은 YouTube 재생 시간 기준이라, 나중에 받는 mp4는 자르지 않은 전체 영상이어야 합니다.
+    </div>
+  </section>
+
+  <section>
+    <h2 id="formTitle">새 질의</h2>
+    <div class="types row">
+      <label><input type="radio" name="qtype" value="S" checked> S 말로 설명됨</label>
+      <label><input type="radio" name="qtype" value="V"> V 화면에만 보임</label>
+    </div>
+    <textarea id="qText" placeholder="예: 두부를 반으로 자르는 장면"></textarea>
+    <div class="row">
+      <label class="f">시작<input class="num" id="segStart" inputmode="decimal"></label>
+      <button class="b" id="markStart" title="단축키 [">시작 [</button>
+      <label class="f">끝<input class="num" id="segEnd" inputmode="decimal"></label>
+      <button class="b" id="markEnd" title="단축키 ]">끝 ]</button>
+      <button class="b" id="addSeg">구간 추가</button>
+      <button class="b" id="addSo" title="V 질의: 자막에서는 말하지만 화면에는 안 나오는 구간">자막만 언급 구간 추가</button>
+    </div>
+    <div id="draftSegs" class="muted">정답 구간: 없음</div>
+    <div id="draftSo" class="muted"></div>
+    <label style="display:block;margin-top:6px"><input type="checkbox" id="qOverlay"> 화면 글자로 찾을 수 있음 (overlay_text)</label>
+    <label class="f" style="margin-top:6px">메모 (선택)<input id="qNote"></label>
+    <div class="row">
+      <button class="b primary" id="saveQ">질의 저장</button>
+      <button class="b" id="saveReview" hidden>수정 저장 + 검수 완료</button>
+      <button class="b" id="cancelEdit" hidden>편집 취소</button>
+    </div>
+    <div id="errors"></div>
+    <div class="listHead"><h2>이 영상의 질의</h2><label class="muted"><input type="checkbox" id="onlyPending"> 미검수만 보기</label></div>
+    <div id="queryList" class="muted">없음</div>
+  </section>
+</main>
+
+<script>
+const FORMAT = "scenefinder-labels/1";
+const $ = (id) => document.getElementById(id);
+const video = $("player");
+let videos = [];                 // 영상 목록 [{id, file, basename, youtube_id, title, key, domain}]
+let labels = { format: FORMAT, videos: {}, queries: [] };
+let current = null;              // 선택한 영상 항목
+let draft = { gt: [], so: [], editing: null };   // so: 자막만 언급 구간 (subtitle_only_spans)
+let previewEnd = null;           // 구간 미리보기의 끝 시간
+
+const r1 = (t) => Math.round(t * 10) / 10;
+const fmt = (t) => (t == null || isNaN(t) ? "-" : r1(t).toFixed(1));
+
+function setStatus(text, isErr = false) {
+  $("status").textContent = text;
+  $("status").className = isErr ? "err" : "";
+}
+
+async function api(path, opts) {
+  const res = await fetch(path, opts);
+  const body = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error((body.errors || [res.statusText]).join("\n"));
+  return body;
+}
+
+// ---------- 재생기: 로컬 <video>와 YouTube 임베드를 같은 방식으로 다룸 ----------
+let yt = null;                   // YT.Player
+let ytReady = null;              // IFrame API 로딩 Promise
+let ytTitle = "";
+const media = {
+  mode: "local",
+  time() { return this.mode === "yt" ? (yt && yt.getCurrentTime ? yt.getCurrentTime() : 0) : video.currentTime; },
+  duration() {
+    const d = this.mode === "yt" ? (yt && yt.getDuration ? yt.getDuration() : 0) : video.duration;
+    return d > 0 && isFinite(d) ? d : null;
+  },
+  seek(t) {
+    t = Math.max(0, this.duration() ? Math.min(this.duration(), t) : t);
+    if (this.mode === "yt") { if (yt) yt.seekTo(t, true); } else video.currentTime = t;
+  },
+  play() { this.mode === "yt" ? yt && yt.playVideo() : video.play(); },
+  pause() { this.mode === "yt" ? yt && yt.pauseVideo() : video.pause(); },
+  paused() { return this.mode === "yt" ? !yt || !yt.getPlayerState || yt.getPlayerState() !== 1 : video.paused; },
+  setRate(r) { this.mode === "yt" ? yt && yt.setPlaybackRate && yt.setPlaybackRate(r) : (video.playbackRate = r); },
+};
+
+function loadYouTubeApi() {
+  if (!ytReady) {
+    ytReady = new Promise((resolve, reject) => {
+      window.onYouTubeIframeAPIReady = resolve;
+      const s = document.createElement("script");
+      s.src = "https://www.youtube.com/iframe_api";
+      s.onerror = () => reject(new Error("YouTube 재생기를 불러오지 못했습니다 (인터넷 연결 확인)"));
+      document.head.appendChild(s);
+    });
+  }
+  return ytReady;
+}
+
+const YT_ERRORS = { 2: "영상 ID가 잘못됐습니다", 5: "브라우저에서 재생할 수 없는 영상입니다", 100: "삭제됐거나 비공개인 영상입니다",
+  101: "업로더가 다른 사이트에서의 재생(임베드)을 막았습니다", 150: "업로더가 다른 사이트에서의 재생(임베드)을 막았습니다" };
+
+async function loadMedia(item, mode) {
+  media.pause();
+  previewEnd = null;
+  ytTitle = "";
+  $("playerMsg").textContent = "";
+  media.mode = mode;
+  video.hidden = mode === "yt";
+  $("ytWrap").hidden = mode !== "yt";
+  if (mode === "local") {
+    video.src = `/media?id=${item.id}`;
+    return;
+  }
+  video.removeAttribute("src");
+  try {
+    await loadYouTubeApi();
+  } catch (e) { $("playerMsg").textContent = e.message; return; }
+  if (current !== item || media.mode !== "yt") return;     // 기다리는 사이 다른 영상을 골랐으면 무시
+  if (yt) { yt.cueVideoById(item.youtube_id); return; }
+  yt = new YT.Player("yt", {
+    videoId: item.youtube_id,
+    playerVars: { rel: 0, playsinline: 1, disablekb: 1 },
+    events: {
+      onReady: () => media.setRate(parseFloat($("rate").value)),
+      onError: (ev) => { $("playerMsg").textContent = "YouTube 재생 오류: " + (YT_ERRORS[ev.data] || ev.data); },
+    },
+  });
+}
+
+// 100ms마다: 현재 시간 표시, 미리보기 끝에서 멈춤, YouTube 화면으로 간 키보드 포커스를 페이지로 되돌림
+function tick() {
+  const t = media.time();
+  $("now").textContent = fmt(t);
+  const d = media.duration();
+  $("dur").textContent = d ? `/ ${fmt(d)}초` : "";
+  // YouTube는 seekTo 직후 잠깐 이전 시간을 돌려주므로, 끝 시간 바로 뒤(1.5초 안)일 때만 멈춤
+  if (previewEnd != null && t >= previewEnd && t < previewEnd + 1.5) { media.pause(); previewEnd = null; }
+  if (document.activeElement && document.activeElement.tagName === "IFRAME") document.activeElement.blur();
+  if (media.mode === "yt" && yt && yt.getVideoData && !ytTitle) {
+    ytTitle = (yt.getVideoData() || {}).title || "";
+    if (ytTitle && current && !current.title) { current.title = ytTitle; renderVideoList(); }
+  }
+}
+setInterval(tick, 100);
+video.addEventListener("loadedmetadata", () => media.setRate(parseFloat($("rate").value)));
+$("rate").onchange = () => media.setRate(parseFloat($("rate").value));
+document.querySelectorAll("input[name=pmode]").forEach((r) => {
+  r.onchange = () => { if (r.checked && current) loadMedia(current, r.value); };
+});
+
+// ---------- 저장 ----------
+let saving = Promise.resolve();
+function save() {
+  const snapshot = JSON.stringify(labels);
+  setStatus("저장 중…");
+  saving = saving.then(() => api("/api/labels", { method: "PUT", headers: { "Content-Type": "application/json" }, body: snapshot }))
+    .then(() => { setStatus(`저장됨 (${new Date().toLocaleTimeString()})`); $("errors").textContent = ""; })
+    .catch((e) => { setStatus("저장 실패 — JSON 내려받기로 백업하세요", true); $("errors").textContent = e.message; });
+  renderCounts();
+}
+
+// ---------- 영상 ----------
+// YouTube 항목은 youtube_id로, 로컬 파일은 file 경로로 라벨의 영상과 짝지음
+function keyOf(item) {
+  return Object.keys(labels.videos).find((k) => {
+    const v = labels.videos[k];
+    return item.youtube_id ? v.youtube_id === item.youtube_id : !v.youtube_id && v.file === item.file;
+  });
+}
+function sanitizeKey(text) {
+  return text.replace(/\.[^.]+$/, "").replace(/[^A-Za-z0-9_-]+/g, "_").replace(/^_+|_+$/g, "") || "video";
+}
+function defaultKey(item) {
+  let base = item.key || (item.youtube_id ? item.youtube_id : sanitizeKey(item.basename));
+  let k = base, i = 2;
+  while (labels.videos[k]) k = `${base}_${i++}`;
+  return k;
+}
+const label = (item) => item.youtube_id ? (item.title || item.youtube_id) : item.basename;
+
+// 라벨에만 있는 YouTube 영상(서버 목록에 없음)과 직접 추가한 영상도 목록에 넣음
+function addYouTubeItem(yid, extra = {}) {
+  let item = videos.find((v) => v.youtube_id === yid);
+  if (!item) {
+    item = { id: null, file: null, basename: null, youtube_id: yid, title: "", key: "", domain: "", ...extra };
+    videos.push(item);
+  }
+  return item;
+}
+function parseYouTubeId(text) {
+  text = text.trim();
+  const m = text.match(/(?:v=|youtu\.be\/|shorts\/|embed\/|live\/)([A-Za-z0-9_-]{11})/) || text.match(/^([A-Za-z0-9_-]{11})$/);
+  return m ? m[1] : null;
+}
+$("ytAdd").onclick = () => {
+  const yid = parseYouTubeId($("ytInput").value);
+  if (!yid) { $("errors").textContent = "YouTube 주소나 11자리 영상 ID를 넣으세요"; return; }
+  $("ytInput").value = "";
+  const item = addYouTubeItem(yid);
+  selectVideo(item);
+};
+$("ytInput").addEventListener("keydown", (ev) => { if (ev.key === "Enter") { ev.preventDefault(); $("ytAdd").onclick(); } });
+
+function renderVideoList() {
+  const box = $("videoList");
+  box.innerHTML = "";
+  for (const v of videos) {
+    const key = keyOf(v);
+    const mine = key ? labels.queries.filter((q) => q.video === key) : [];
+    const n = mine.length;
+    const pending = mine.concat((labels.negative_queries || []).filter((q) => q.video === key))
+      .filter((q) => sourceOf(q) === "ai_draft").length;
+    const b = document.createElement("button");
+    b.className = current === v ? "on" : "";
+    const badges = (v.youtube_id ? '<span class="badge">YT</span>' : "") + (v.id != null ? '<span class="badge local">파일</span>' : "");
+    b.innerHTML = `${badges}${esc(label(v))}<small>${key ? esc(key) + " · " : ""}질의 ${n}개${pending ? ` · 미검수 ${pending}` : ""}</small>`;
+    b.onclick = () => selectVideo(v);
+    box.appendChild(b);
+  }
+  if (!videos.length) box.textContent = "영상이 없습니다. --videos 폴더나 --youtube-list를 확인하거나 위에 YouTube 주소를 넣으세요.";
+}
+
+function selectVideo(v) {
+  current = v;
+  const key = keyOf(v);
+  const info = key ? labels.videos[key] : {};
+  $("vKey").value = key || defaultKey(v);
+  $("vName").value = info.name || "";
+  $("vDomain").value = info.domain || v.domain || "";
+  $("vFile").textContent = v.youtube_id
+    ? `YouTube ${v.youtube_id}` + (v.file ? ` · 로컬 파일 ${v.file}` : " · 로컬 파일 없음")
+    : v.file;
+  const both = v.youtube_id && v.id != null;
+  $("modeBox").hidden = !both;
+  const mode = v.youtube_id ? "yt" : "local";
+  document.querySelectorAll("input[name=pmode]").forEach((r) => { r.checked = r.value === mode; });
+  loadMedia(v, mode);
+  resetDraft();
+  renderVideoList();
+}
+
+// 질의를 처음 저장할 때 영상 정보를 등록
+function ensureVideo() {
+  let key = keyOf(current);
+  const wanted = $("vKey").value.trim();
+  if (!/^[A-Za-z0-9_-]+$/.test(wanted)) throw new Error("영상 키는 영문·숫자·_·-만 쓸 수 있습니다");
+  if (!key) {
+    if (labels.videos[wanted]) throw new Error(`키 ${wanted}는 다른 영상이 쓰고 있습니다`);
+    key = wanted;
+    // YouTube 영상은 ID만 저장 (mp4는 실험할 때 ~/scenefinder_eval/videos/<ID>.mp4에서 찾음)
+    labels.videos[key] = current.youtube_id ? { youtube_id: current.youtube_id } : { file: current.file };
+  }
+  const v = labels.videos[key];
+  Object.assign(v, {
+    name: $("vName").value.trim() || key,
+    domain: $("vDomain").value.trim(),
+    duration: media.duration() ? r1(media.duration()) : v.duration ?? null,
+  });
+  if (current.youtube_id && current.title) v.title = current.title;
+  return key;
+}
+
+function updateVideoInfo() {
+  const key = current && keyOf(current);
+  if (!key) return;                       // 아직 질의가 없으면 첫 저장 때 등록
+  const wanted = $("vKey").value.trim();
+  try {
+    if (wanted !== key) {
+      if (!/^[A-Za-z0-9_-]+$/.test(wanted)) throw new Error("영상 키는 영문·숫자·_·-만 쓸 수 있습니다");
+      if (labels.videos[wanted]) throw new Error(`키 ${wanted}는 다른 영상이 쓰고 있습니다`);
+      labels.videos[wanted] = labels.videos[key];
+      delete labels.videos[key];
+      labels.queries.forEach((q) => { if (q.video === key) q.video = wanted; });
+    }
+    ensureVideo();
+    save();
+    renderVideoList();
+  } catch (e) { $("errors").textContent = e.message; $("vKey").value = key; }
+}
+["vKey", "vName", "vDomain"].forEach((id) => $(id).addEventListener("change", updateVideoInfo));
+
+// ---------- 질의 작성 ----------
+function readTime(id) {
+  const t = parseFloat($(id).value);
+  return isNaN(t) ? null : r1(t);
+}
+function mark(which) {
+  $(which === "start" ? "segStart" : "segEnd").value = fmt(media.time());
+}
+function addSegment(target = "gt") {
+  const s = readTime("segStart"), e = readTime("segEnd");
+  if (s == null || e == null) { $("errors").textContent = "시작과 끝을 모두 찍으세요"; return false; }
+  if (e <= s) { $("errors").textContent = "끝이 시작보다 뒤여야 합니다"; return false; }
+  draft[target].push([s, e]);
+  draft[target].sort((a, b) => a[0] - b[0]);
+  $("segStart").value = $("segEnd").value = "";
+  $("errors").textContent = "";
+  renderDraft();
+  return true;
+}
+function renderSegs(box, title, segs, emptyText) {
+  if (!segs.length) { box.textContent = emptyText; return; }
+  box.innerHTML = title;
+  segs.forEach(([s, e], i) => {
+    const span = document.createElement("span");
+    span.className = "seg";
+    span.innerHTML = `${fmt(s)}–${fmt(e)}`;
+    span.append(btn("▶", () => preview(s, e), "구간 재생"), btn("✕", () => { segs.splice(i, 1); renderDraft(); }, "구간 삭제"));
+    box.appendChild(span);
+  });
+}
+function renderDraft() {
+  renderSegs($("draftSegs"), "정답 구간: ", draft.gt, "정답 구간: 없음");
+  renderSegs($("draftSo"), "자막만 언급 구간: ", draft.so, "");
+}
+function resetDraft() {
+  draft = { gt: [], so: [], editing: null };
+  $("qText").value = $("qNote").value = $("segStart").value = $("segEnd").value = "";
+  $("formTitle").textContent = "새 질의";
+  $("cancelEdit").hidden = true;
+  $("saveReview").hidden = true;
+  $("qOverlay").checked = false;
+  $("saveQ").textContent = "질의 저장";
+  $("errors").textContent = "";
+  renderDraft();
+  renderQueries();
+}
+
+// 질의 출처 배지: simulated_user = 제목·채널·정책만 보고 AI가 사용자처럼 쓴 질문 (persona: 사용자 유형)
+const originBadge = (q) => q.origin === "simulated_user"
+  ? `<span class="src sim" title="영상 내용을 보지 않고 쓴 사용자 질문">사용자 질문${q.persona ? " · " + esc(q.persona) : ""}</span>` : "";
+
+// 검수 상태: ai_draft(AI 초안) → human_reviewed(검수 완료). 처음부터 사람이 쓴 질의는 human_written
+// (예전 파일의 human도 같은 뜻으로 읽음)
+const SOURCE_LABEL = { ai_draft: "AI 초안", human_reviewed: "검수 완료", human_written: "직접 작성", human: "직접 작성" };
+const sourceOf = (q) => q.source || "human";
+const allNums = () => labels.queries.concat(labels.negative_queries || []).map((q) => q.num);
+
+function saveQuery(markReviewed = false) {
+  if (!current) return;
+  // 시작·끝을 찍고 '구간 추가'를 누르지 않았으면 함께 추가
+  if ($("segStart").value || $("segEnd").value) { if (!addSegment()) return; }
+  const text = $("qText").value.trim();
+  const type = document.querySelector("input[name=qtype]:checked").value;
+  if (!text) { $("errors").textContent = "질의를 입력하세요"; return; }
+  if (!draft.gt.length) { $("errors").textContent = "정답 구간을 하나 이상 추가하세요"; return; }
+  let key;
+  try { key = ensureVideo(); } catch (e) { $("errors").textContent = e.message; return; }
+  const item = { video: key, type, query: text, gt: draft.gt.map((g) => [...g]), overlay_text: $("qOverlay").checked,
+                 subtitle_only_spans: type === "V" ? draft.so.map((g) => [...g]) : [] };
+  const note = $("qNote").value.trim();
+  if (draft.editing != null) {
+    // 수정해도 source 등 이 화면에 없는 필드는 그대로 둠
+    const i = labels.queries.findIndex((q) => q.num === draft.editing);
+    const next = { ...labels.queries[i], ...item };
+    if (note) next.note = note; else delete next.note;
+    if (markReviewed && next.source === "ai_draft") next.source = "human_reviewed";
+    labels.queries[i] = next;
+  } else {
+    const num = Math.max(0, ...allNums()) + 1;   // 정답 없음 질의와도 번호가 겹치지 않게
+    labels.queries.push({ num, ...item, ...(note ? { note } : {}), source: "human_written" });
+  }
+  save();
+  resetDraft();
+  renderVideoList();
+  $("qText").focus();
+}
+
+function editQuery(q) {
+  draft = { gt: q.gt.map((g) => [...g]), so: (q.subtitle_only_spans || []).map((g) => [...g]), editing: q.num };
+  $("qText").value = q.query;
+  $("qNote").value = q.note || "";
+  $("qOverlay").checked = !!q.overlay_text;
+  $("saveReview").hidden = sourceOf(q) !== "ai_draft";
+  document.querySelector(`input[name=qtype][value=${q.type}]`).checked = true;
+  $("formTitle").textContent = `#${q.num} 편집`;
+  $("cancelEdit").hidden = false;
+  $("saveQ").textContent = "수정 저장";
+  renderDraft();
+  renderQueries();
+}
+
+function deleteQuery(q) {
+  if (!confirm(`#${q.num} "${q.query}"를 삭제할까요?`)) return;
+  labels.queries = labels.queries.filter((x) => x.num !== q.num);
+  if (draft.editing === q.num) resetDraft();
+  save();
+  renderQueries();
+  renderVideoList();
+}
+
+function renderQueries() {
+  const box = $("queryList");
+  const key = current && keyOf(current);
+  let list = key ? labels.queries.filter((q) => q.video === key).sort((a, b) => a.num - b.num) : [];
+  if ($("onlyPending").checked) list = list.filter((q) => sourceOf(q) === "ai_draft");
+  const hasNeg = (labels.negative_queries || []).some((q) => q.video === key);
+  if (!list.length && !hasNeg) { box.textContent = $("onlyPending").checked ? "미검수 질의 없음" : "없음"; return; }
+  box.innerHTML = "";
+  for (const q of list) {
+    const div = document.createElement("div");
+    div.className = "q" + (draft.editing === q.num ? " editing" : "");
+    const src = sourceOf(q);
+    div.innerHTML = `<div><span class="tag ${q.type}">${q.type}</span><b>#${q.num}</b> ${esc(q.query)}` +
+      `<span class="src ${src}">${SOURCE_LABEL[src] || esc(src)}</span>` + originBadge(q) +
+      (q.overlay_text ? '<span class="src overlay" title="화면 글자로 찾을 수 있음">화면 글자</span>' : "") + "</div>";
+    const segs = document.createElement("div");
+    for (const [s, e] of q.gt) {
+      const span = document.createElement("span");
+      span.className = "seg";
+      span.textContent = `${fmt(s)}–${fmt(e)}`;
+      span.append(btn("▶", () => preview(s, e), "구간 재생"));
+      segs.appendChild(span);
+    }
+    div.appendChild(segs);
+    if ((q.subtitle_only_spans || []).length) {
+      const so = document.createElement("div");
+      so.className = "muted";
+      so.textContent = "자막만 언급: ";
+      for (const [s, e] of q.subtitle_only_spans) {
+        const span = document.createElement("span");
+        span.className = "seg";
+        span.textContent = `${fmt(s)}–${fmt(e)}`;
+        span.append(btn("▶", () => preview(s, e), "구간 재생"));
+        so.appendChild(span);
+      }
+      div.appendChild(so);
+    }
+    if (q.note) div.insertAdjacentHTML("beforeend", `<div class="muted">${esc(q.note)}</div>`);
+    const actions = document.createElement("div");
+    actions.className = "row";
+    if (src === "ai_draft") actions.append(btn("검수 완료", () => setReviewed(q, true), "AI 초안을 확인했으면 누르세요", "b primary"));
+    if (src === "human_reviewed") actions.append(btn("검수 취소", () => setReviewed(q, false), "", "b"));
+    actions.append(btn("편집", () => editQuery(q), "", "b"), btn("삭제", () => deleteQuery(q), "", "b danger"));
+    div.appendChild(actions);
+    box.appendChild(div);
+  }
+  renderNegatives(box, key);
+}
+
+// 정답 없음 질의(negative_queries): 구간 없이 질의만. AI 초안을 검수 완료하거나 삭제
+function renderNegatives(box, key) {
+  const negs = (labels.negative_queries || []).filter((q) => q.video === key &&
+    (!$("onlyPending").checked || sourceOf(q) === "ai_draft"));
+  for (const q of negs.sort((a, b) => a.num - b.num)) {
+    const div = document.createElement("div");
+    div.className = "q";
+    const src = sourceOf(q);
+    div.innerHTML = `<div><span class="tag N">없음</span><b>#${q.num}</b> ${esc(q.query)}` +
+      `<span class="src ${src}">${SOURCE_LABEL[src] || esc(src)}</span>${originBadge(q)}</div>` +
+      `<div class="muted">정답 없음 질의: 영상에 이 내용이 말로도 화면으로도 없어야 함</div>` +
+      (q.note ? `<div class="muted">${esc(q.note)}</div>` : "");
+    const actions = document.createElement("div");
+    actions.className = "row";
+    if (src === "ai_draft") actions.append(btn("검수 완료", () => setReviewed(q, true), "영상에 정말 없으면 누르세요", "b primary"));
+    if (src === "human_reviewed") actions.append(btn("검수 취소", () => setReviewed(q, false), "", "b"));
+    actions.append(btn("문구 수정", () => {
+      const t = prompt("질의 문구", q.query);
+      if (t && t.trim()) { q.query = t.trim(); save(); renderQueries(); }
+    }, "", "b"), btn("삭제", () => {
+      if (!confirm(`#${q.num} "${q.query}"를 삭제할까요?`)) return;
+      labels.negative_queries = labels.negative_queries.filter((x) => x.num !== q.num);
+      save(); renderQueries(); renderVideoList();
+    }, "", "b danger"));
+    div.appendChild(actions);
+    box.appendChild(div);
+  }
+}
+
+function setReviewed(q, done) {
+  q.source = done ? "human_reviewed" : "ai_draft";
+  save();
+  renderQueries();
+  renderVideoList();
+}
+
+function renderCounts() {
+  const S = labels.queries.filter((q) => q.type === "S").length;
+  const V = labels.queries.length - S;
+  $("counts").textContent = `전체 질의 ${labels.queries.length}개 (S ${S} · V ${V}) · 영상 ${Object.keys(labels.videos).length}개`;
+  // 진행률: AI 초안 중 검수한 것 (직접 쓴 질의는 세지 않음)
+  const drafts = labels.queries.concat(labels.negative_queries || []).filter((q) => ["ai_draft", "human_reviewed"].includes(sourceOf(q)));
+  const done = drafts.filter((q) => sourceOf(q) === "human_reviewed").length;
+  $("progress").textContent = drafts.length ? `검수 ${done}/${drafts.length}` : "";
+}
+
+// ---------- 재생 조작 ----------
+function preview(s, e) {
+  media.seek(s);
+  media.play();
+  previewEnd = e;
+}
+function seek(delta) {
+  previewEnd = null;
+  media.seek(media.time() + delta);
+}
+
+document.addEventListener("keydown", (ev) => {
+  const typing = ["INPUT", "TEXTAREA", "SELECT"].includes(document.activeElement.tagName);
+  if (ev.key === "Escape" && typing) { document.activeElement.blur(); return; }
+  if (typing || ev.ctrlKey || ev.metaKey || ev.altKey || !current) return;
+  const handlers = {
+    " ": () => { previewEnd = null; media.paused() ? media.play() : media.pause(); },
+    ArrowLeft: () => seek(ev.shiftKey ? -5 : -1),
+    ArrowRight: () => seek(ev.shiftKey ? 5 : 1),
+    ",": () => seek(-0.1),
+    ".": () => seek(0.1),
+    "[": () => mark("start"),
+    "]": () => mark("end"),
+    Enter: () => addSegment(),
+  };
+  if (handlers[ev.key]) { ev.preventDefault(); handlers[ev.key](); }
+});
+
+// ---------- 기타 ----------
+function btn(text, onclick, title = "", cls = "") {
+  const b = document.createElement("button");
+  b.textContent = text;
+  if (cls) b.className = cls;
+  if (title) b.title = title;
+  b.onclick = onclick;
+  return b;
+}
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+$("markStart").onclick = () => mark("start");
+$("markEnd").onclick = () => mark("end");
+$("addSeg").onclick = () => addSegment("gt");
+$("addSo").onclick = () => addSegment("so");
+$("saveQ").onclick = () => saveQuery(false);
+$("saveReview").onclick = () => saveQuery(true);
+$("onlyPending").onchange = () => renderQueries();
+$("cancelEdit").onclick = resetDraft;
+$("download").onclick = () => {
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([JSON.stringify(labels, null, 1)], { type: "application/json" }));
+  a.download = "labels.json";
+  a.click();
+};
+window.addEventListener("beforeunload", (ev) => {
+  if ($("status").classList.contains("err")) { ev.preventDefault(); ev.returnValue = ""; }
+});
+
+(async () => {
+  try {
+    [videos, labels] = await Promise.all([api("/api/videos"), api("/api/labels")]);
+    labels.videos = labels.videos || {};
+    labels.queries = labels.queries || [];
+    for (const v of Object.values(labels.videos)) {
+      if (v.youtube_id) addYouTubeItem(v.youtube_id, { title: v.title || "" });
+    }
+    setStatus("준비됨");
+    renderCounts();
+    renderVideoList();
+    if (videos.length) selectVideo(videos[0]);
+  } catch (e) { setStatus("불러오기 실패: " + e.message, true); }
+})();
+</script>
+</body>
+</html>

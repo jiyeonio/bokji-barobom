@@ -1,0 +1,106 @@
+{
+ "youtubeId": "g1pnnFdpUXM",
+ "generatedAt": "2026-11-15 04:55",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 57.6,
+   "title": "홈택스 모바일 신청 방법",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 10초 이후",
+   "pYes": 0.622
+  },
+  {
+   "start": 57.6,
+   "end": 84.2,
+   "title": "인증서로 로그인",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 84.2,
+   "end": 107.6,
+   "title": "장려금 통지 방식 선택",
+   "step": 4,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 107.6,
+   "end": 185.9,
+   "title": "가구사항 및 전세금 명세 입력",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 185.9,
+   "end": 240.4,
+   "title": "소득 정보 입력",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.003
+  },
+  {
+   "start": 240.4,
+   "end": 303.3,
+   "title": "환급금 수령 방법 선택",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 303.3,
+   "end": 356.4,
+   "title": "홈택스 접속 및 로그인",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.0
+  },
+  {
+   "start": 356.4,
+   "end": 411.1,
+   "title": "신청서 작성 화면",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 411.1,
+   "end": 451.6,
+   "title": "자격 확인 화면",
+   "step": 1,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 451.6,
+   "end": 510.5,
+   "title": "전세금 평가 방법",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 510.5,
+   "end": 640.0,
+   "title": "소득 정보 입력",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.998
+  }
+ ]
+}

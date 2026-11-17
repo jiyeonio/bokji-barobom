@@ -1,0 +1,35 @@
+# 복지바로봄 백엔드·데이터 만들기 (Python 3.11, 2026-11-17 시연 서버에서 동작 확인한 버전)
+# torch / torchvision 은 GPU(CUDA 12.8) 버전을 먼저 설치: https://pytorch.org/get-started/locally/
+torch==2.11.0
+torchvision==0.26.0
+
+# API 서버
+fastapi==0.141.1
+uvicorn==0.54.0
+python-dotenv==1.2.3
+requests==2.34.2
+
+# 검색 엔진 (MiniLM 자막 검색, Qwen3-VL 화면 검색·재확인)
+transformers==5.19.0
+sentence-transformers==6.1.0
+huggingface-hub==1.33.0
+safetensors==0.8.0
+sentencepiece==0.2.2
+numpy==2.2.6
+scikit-learn==1.7.2
+langdetect==1.0.9
+pillow==12.3.0
+opencv-python==5.0.0.93
+
+# 영상 색인 (자막·CLIP 특징·프레임) — backend/scripts/index_demo.py
+faster-whisper==1.2.1
+yt-dlp==2026.8.19
+ffmpeg-python==0.2.0
+ftfy==6.3.1
+regex==2026.9.10
+tqdm==4.70.1
+
+# 선택: AI 답변(RAG, Claude API) — backend/services/rag.py
+# anthropic==2.8.0
+# 선택: 신청서 지도 만들기(공식 서식 PDF → 이미지·칸 위치) — backend/scripts/build_form_map.py
+# pymupdf==2.1

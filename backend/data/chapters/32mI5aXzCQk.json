@@ -1,0 +1,142 @@
+{
+ "youtubeId": "32mI5aXzCQk",
+ "generatedAt": "2026-11-15 04:55",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 40.2,
+   "title": "서면 신청서 작성",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: 10초 이후",
+   "pYes": 0.998
+  },
+  {
+   "start": 40.2,
+   "end": 105.6,
+   "title": "서류 준비하기",
+   "step": 2,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 105.6,
+   "end": 224.4,
+   "title": "복지 서비스 신청 서식 선택",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.998
+  },
+  {
+   "start": 224.4,
+   "end": 304.4,
+   "title": "배우자 정보 입력",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.994
+  },
+  {
+   "start": 304.4,
+   "end": 362.7,
+   "title": "배우자 동시 신청란",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.997
+  },
+  {
+   "start": 362.7,
+   "end": 431.4,
+   "title": "보장구분 체크: 노인",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.996
+  },
+  {
+   "start": 431.4,
+   "end": 475.5,
+   "title": "휴대전화요금 감면 신청",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.999
+  },
+  {
+   "start": 475.5,
+   "end": 780.9,
+   "title": "개인정보 동의 필수",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.01
+  },
+  {
+   "start": 780.9,
+   "end": 805.4,
+   "title": "재산 신고 항목 설명",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.994
+  },
+  {
+   "start": 805.4,
+   "end": 941.2,
+   "title": "처분 재산 가액 제외 조건",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 941.2,
+   "end": 1077.5,
+   "title": "금융정보 제공 동의서",
+   "step": 2,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.974
+  },
+  {
+   "start": 1077.5,
+   "end": 1108.7,
+   "title": "금융정보 제공 동의",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.706
+  },
+  {
+   "start": 1108.7,
+   "end": 1170.3,
+   "title": "금융재산 포함 범위",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.002
+  },
+  {
+   "start": 1170.3,
+   "end": 1297.3,
+   "title": "서류 제출 방법 안내",
+   "step": 2,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.996
+  },
+  {
+   "start": 1297.3,
+   "end": 1388.0,
+   "title": "서류 작성 및 제출 방법",
+   "step": 2,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  }
+ ]
+}

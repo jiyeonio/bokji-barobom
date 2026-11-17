@@ -1,0 +1,69 @@
+{
+ "youtubeId": "GmxO1AZabqM",
+ "generatedAt": "2026-11-15 04:56",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 109.0,
+   "title": "기초연금 모의계산",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 109.0,
+   "end": 134.0,
+   "title": "가구 유형 및 거주지 입력",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 134.0,
+   "end": 252.0,
+   "title": "소득 정보 입력",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 252.0,
+   "end": 277.1,
+   "title": "임차보증금 및 시가표준액 입력",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 277.1,
+   "end": 300.1,
+   "title": "차량가액 입력",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 300.1,
+   "end": 323.7,
+   "title": "재산·금융부채 정보 입력",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 323.7,
+   "end": 438.0,
+   "title": "소득 정보 입력",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.999
+  }
+ ]
+}

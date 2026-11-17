@@ -1,0 +1,1171 @@
+{
+ "form": {
+  "id": "ssb1",
+  "title": "사회보장급여 신청(변경)서",
+  "revision": "개정 2026. 5. 1.",
+  "source": "국가법령정보센터 「사회보장급여 관련 공통서식에 관한 고시」 [별지 제1호서식]",
+  "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163660115",
+  "pages": [
+   {
+    "n": 1,
+    "image": "forms/ssb1_p1.png",
+    "width": 1240,
+    "height": 1753
+   },
+   {
+    "n": 2,
+    "image": "forms/ssb1_p2.png",
+    "width": 1240,
+    "height": 1753
+   },
+   {
+    "n": 3,
+    "image": "forms/ssb1_p3.png",
+    "width": 1240,
+    "height": 1753
+   },
+   {
+    "n": 4,
+    "image": "forms/ssb1_p4.png",
+    "width": 1240,
+    "height": 1753
+   }
+  ],
+  "note": "영상 속 서식은 이전 개정판이라 칸 위치·이름이 조금 다를 수 있어요."
+ },
+ "video": "32mI5aXzCQk",
+ "videoRange": [
+  181.64,
+  647.74
+ ],
+ "fields": [
+  {
+   "id": "p1_name",
+   "page": 1,
+   "section": "신청인",
+   "label": "성명",
+   "box": [
+    172,
+    322,
+    213,
+    342
+   ],
+   "scene": {
+    "start": 199.28,
+    "end": 224.28
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "이곳에 표시된 성명, 주민등록번호, 세대주와의 관계, 전화번호, 휴대전화번호, 전자우편, 주소란을 모두 빠짐없이 작성해 주시기 바랍니다.",
+    "source": "video",
+    "label": "영상 화면 기준 · 자막 오타 고침"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "이곳에 표시된 성명, 주민등록번호, 세대주와의 관계, 전화번호, 휴대전화번호, 전자우편, 주소란을 모두 빠짐없이 작성해 주시기 바랍니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p1_rrn",
+   "page": 1,
+   "section": "신청인",
+   "label": "주민등록번호",
+   "box": [
+    351,
+    298,
+    476,
+    319
+   ],
+   "scene": {
+    "start": 199.28,
+    "end": 224.28
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "이곳에 표시된 성명, 주민등록번호, 세대주와의 관계, 전화번호, 휴대전화번호, 전자우편, 주소란을 모두 빠짐없이 작성해 주시기 바랍니다.",
+    "source": "video",
+    "label": "영상 화면 기준 · 자막 오타 고침"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "이곳에 표시된 성명, 주민등록번호, 세대주와의 관계, 전화번호, 휴대전화번호, 전자우편, 주소란을 모두 빠짐없이 작성해 주시기 바랍니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p1_rel",
+   "page": 1,
+   "section": "신청인",
+   "label": "세대주와의 관계",
+   "box": [
+    623,
+    308,
+    727,
+    329
+   ],
+   "scene": {
+    "start": 199.28,
+    "end": 224.28
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "이곳에 표시된 성명, 주민등록번호, 세대주와의 관계, 전화번호, 휴대전화번호, 전자우편, 주소란을 모두 빠짐없이 작성해 주시기 바랍니다.",
+    "source": "video",
+    "label": "영상 화면 기준 · 자막 오타 고침"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "이곳에 표시된 성명, 주민등록번호, 세대주와의 관계, 전화번호, 휴대전화번호, 전자우편, 주소란을 모두 빠짐없이 작성해 주시기 바랍니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p1_tel",
+   "page": 1,
+   "section": "신청인",
+   "label": "전화번호",
+   "box": [
+    835,
+    322,
+    918,
+    342
+   ],
+   "scene": {
+    "start": 199.28,
+    "end": 224.28
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "이곳에 표시된 성명, 주민등록번호, 세대주와의 관계, 전화번호, 휴대전화번호, 전자우편, 주소란을 모두 빠짐없이 작성해 주시기 바랍니다.",
+    "source": "video",
+    "label": "영상 화면 기준 · 자막 오타 고침"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "이곳에 표시된 성명, 주민등록번호, 세대주와의 관계, 전화번호, 휴대전화번호, 전자우편, 주소란을 모두 빠짐없이 작성해 주시기 바랍니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p1_addr",
+   "page": 1,
+   "section": "신청인",
+   "label": "주소",
+   "box": [
+    172,
+    415,
+    213,
+    436
+   ],
+   "scene": {
+    "start": 199.28,
+    "end": 224.28
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "주민등록상 주소와 실제 거주지의 주소가 다른 경우 주민등록상 주소와 실제 거주지의 주소를 모두 기재",
+    "source": "official",
+    "label": "공식 서식 작성 방법 1)"
+   },
+   "also": {
+    "text": "이곳에 표시된 성명, 주민등록번호, 세대주와의 관계, 전화번호, 휴대전화번호, 전자우편, 주소란을 모두 빠짐없이 작성해 주시기 바랍니다.",
+    "source": "video",
+    "label": "영상 화면 기준 · 자막 오타 고침"
+   },
+   "videoExplained": true,
+   "videoText": "이곳에 표시된 성명, 주민등록번호, 세대주와의 관계, 전화번호, 휴대전화번호, 전자우편, 주소란을 모두 빠짐없이 작성해 주시기 바랍니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p1_mobile",
+   "page": 1,
+   "section": "신청인",
+   "label": "휴대전화",
+   "box": [
+    834,
+    387,
+    909,
+    408
+   ],
+   "scene": {
+    "start": 199.28,
+    "end": 224.28
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "원활한 결과 통지를 위해 신청인 휴대전화번호 정확하게 기재",
+    "source": "official",
+    "label": "공식 서식 작성 방법 2)"
+   },
+   "also": {
+    "text": "이곳에 표시된 성명, 주민등록번호, 세대주와의 관계, 전화번호, 휴대전화번호, 전자우편, 주소란을 모두 빠짐없이 작성해 주시기 바랍니다.",
+    "source": "video",
+    "label": "영상 화면 기준 · 자막 오타 고침"
+   },
+   "videoExplained": true,
+   "videoText": "이곳에 표시된 성명, 주민등록번호, 세대주와의 관계, 전화번호, 휴대전화번호, 전자우편, 주소란을 모두 빠짐없이 작성해 주시기 바랍니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p1_email",
+   "page": 1,
+   "section": "신청인",
+   "label": "전자우편",
+   "box": [
+    835,
+    444,
+    918,
+    464
+   ],
+   "scene": {
+    "start": 199.28,
+    "end": 224.28
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "이곳에 표시된 성명, 주민등록번호, 세대주와의 관계, 전화번호, 휴대전화번호, 전자우편, 주소란을 모두 빠짐없이 작성해 주시기 바랍니다.",
+    "source": "video",
+    "label": "영상 화면 기준 · 자막 오타 고침"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "이곳에 표시된 성명, 주민등록번호, 세대주와의 관계, 전화번호, 휴대전화번호, 전자우편, 주소란을 모두 빠짐없이 작성해 주시기 바랍니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p1_f_rel",
+   "page": 1,
+   "section": "가족사항",
+   "label": "세대주와의 관계",
+   "box": [
+    161,
+    510,
+    265,
+    530
+   ],
+   "scene": {
+    "start": 224.36,
+    "end": 264.36
+   },
+   "sceneLevel": "section",
+   "write": null,
+   "also": null,
+   "videoExplained": false,
+   "videoText": null,
+   "sectionGuide": "즉, 오직 배우자의 정보만 작성해 주시면 됩니다"
+  },
+  {
+   "id": "p1_f_name",
+   "page": 1,
+   "section": "가족사항",
+   "label": "성명",
+   "box": [
+    281,
+    523,
+    323,
+    544
+   ],
+   "scene": {
+    "start": 252.88,
+    "end": 277.88
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "배우자의 성명, 주민등록번호, 동거여부, 전화번호 등 배우자 정보를 모두 작성하셨다면",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "배우자의 성명, 주민등록번호, 동거여부, 전화번호 등 배우자 정보를 모두 작성하셨다면",
+   "sectionGuide": "즉, 오직 배우자의 정보만 작성해 주시면 됩니다"
+  },
+  {
+   "id": "p1_f_rrn",
+   "page": 1,
+   "section": "가족사항",
+   "label": "주민등록번호",
+   "box": [
+    367,
+    495,
+    492,
+    515
+   ],
+   "scene": {
+    "start": 252.88,
+    "end": 277.88
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "배우자의 성명, 주민등록번호, 동거여부, 전화번호 등 배우자 정보를 모두 작성하셨다면",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "배우자의 성명, 주민등록번호, 동거여부, 전화번호 등 배우자 정보를 모두 작성하셨다면",
+   "sectionGuide": "즉, 오직 배우자의 정보만 작성해 주시면 됩니다"
+  },
+  {
+   "id": "p1_f_live",
+   "page": 1,
+   "section": "가족사항",
+   "label": "동거여부",
+   "box": [
+    527,
+    509,
+    610,
+    529
+   ],
+   "scene": {
+    "start": 252.88,
+    "end": 277.88
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "배우자의 성명, 주민등록번호, 동거여부, 전화번호 등 배우자 정보를 모두 작성하셨다면",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "배우자의 성명, 주민등록번호, 동거여부, 전화번호 등 배우자 정보를 모두 작성하셨다면",
+   "sectionGuide": "즉, 오직 배우자의 정보만 작성해 주시면 됩니다"
+  },
+  {
+   "id": "p1_f_edu",
+   "page": 1,
+   "section": "가족사항",
+   "label": "학력·재학여부",
+   "box": [
+    613,
+    509,
+    737,
+    529
+   ],
+   "scene": {
+    "start": 224.36,
+    "end": 264.36
+   },
+   "sceneLevel": "section",
+   "write": null,
+   "also": null,
+   "videoExplained": false,
+   "videoText": null,
+   "sectionGuide": "즉, 오직 배우자의 정보만 작성해 주시면 됩니다"
+  },
+  {
+   "id": "p1_f_health",
+   "page": 1,
+   "section": "가족사항",
+   "label": "건강상태",
+   "box": [
+    739,
+    509,
+    823,
+    529
+   ],
+   "scene": {
+    "start": 224.36,
+    "end": 264.36
+   },
+   "sceneLevel": "section",
+   "write": null,
+   "also": null,
+   "videoExplained": false,
+   "videoText": null,
+   "sectionGuide": "즉, 오직 배우자의 정보만 작성해 주시면 됩니다"
+  },
+  {
+   "id": "p1_f_job",
+   "page": 1,
+   "section": "가족사항",
+   "label": "취업상태",
+   "box": [
+    882,
+    500,
+    966,
+    521
+   ],
+   "scene": {
+    "start": 224.36,
+    "end": 264.36
+   },
+   "sceneLevel": "section",
+   "write": null,
+   "also": null,
+   "videoExplained": false,
+   "videoText": null,
+   "sectionGuide": "즉, 오직 배우자의 정보만 작성해 주시면 됩니다"
+  },
+  {
+   "id": "p1_f_tel",
+   "page": 1,
+   "section": "가족사항",
+   "label": "전화번호",
+   "box": [
+    1030,
+    509,
+    1113,
+    529
+   ],
+   "scene": {
+    "start": 252.88,
+    "end": 277.88
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "배우자의 성명, 주민등록번호, 동거여부, 전화번호 등 배우자 정보를 모두 작성하셨다면",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "배우자의 성명, 주민등록번호, 동거여부, 전화번호 등 배우자 정보를 모두 작성하셨다면",
+   "sectionGuide": "즉, 오직 배우자의 정보만 작성해 주시면 됩니다"
+  },
+  {
+   "id": "p1_spouse",
+   "page": 1,
+   "section": "가족사항",
+   "label": "배우자 관계",
+   "box": [
+    196,
+    805,
+    300,
+    823
+   ],
+   "scene": {
+    "start": 260.9,
+    "end": 285.32
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "해당자에 한함",
+    "source": "official",
+    "label": "공식 서식 작성 방법 3)"
+   },
+   "also": {
+    "text": "맨 밑 하단의 배우자 관계를 체크해 주시기 바랍니다",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "videoExplained": true,
+   "videoText": "맨 밑 하단의 배우자 관계를 체크해 주시기 바랍니다",
+   "sectionGuide": "즉, 오직 배우자의 정보만 작성해 주시면 됩니다"
+  },
+  {
+   "id": "p1_passport",
+   "page": 1,
+   "section": "가족사항",
+   "label": "외국 여권 소지자명",
+   "box": [
+    723,
+    805,
+    892,
+    823
+   ],
+   "scene": {
+    "start": 224.36,
+    "end": 264.36
+   },
+   "sceneLevel": "section",
+   "write": {
+    "text": "해당자에 한함",
+    "source": "official",
+    "label": "공식 서식 작성 방법 4)"
+   },
+   "also": null,
+   "videoExplained": false,
+   "videoText": null,
+   "sectionGuide": "즉, 오직 배우자의 정보만 작성해 주시면 됩니다"
+  },
+  {
+   "id": "p1_born",
+   "page": 1,
+   "section": "가족사항",
+   "label": "국외 출생자명",
+   "box": [
+    196,
+    835,
+    318,
+    853
+   ],
+   "scene": {
+    "start": 224.36,
+    "end": 264.36
+   },
+   "sceneLevel": "section",
+   "write": {
+    "text": "아동수당, 부모급여(현금), 양육수당 신청대상에 한함",
+    "source": "official",
+    "label": "공식 서식 작성 방법 5)"
+   },
+   "also": null,
+   "videoExplained": false,
+   "videoText": null,
+   "sectionGuide": "즉, 오직 배우자의 정보만 작성해 주시면 됩니다"
+  },
+  {
+   "id": "p1_dual",
+   "page": 1,
+   "section": "가족사항",
+   "label": "복수국적자명",
+   "box": [
+    734,
+    835,
+    846,
+    853
+   ],
+   "scene": {
+    "start": 224.36,
+    "end": 264.36
+   },
+   "sceneLevel": "section",
+   "write": {
+    "text": "아동수당, 부모급여(현금), 양육수당 신청대상에 한함",
+    "source": "official",
+    "label": "공식 서식 작성 방법 6)"
+   },
+   "also": null,
+   "videoExplained": false,
+   "videoText": null,
+   "sectionGuide": "즉, 오직 배우자의 정보만 작성해 주시면 됩니다"
+  },
+  {
+   "id": "p1_dep",
+   "page": 1,
+   "section": "부양의무자",
+   "label": "부양의무자(전체)",
+   "box": [
+    159,
+    886,
+    267,
+    907
+   ],
+   "scene": {
+    "start": 181.64,
+    "end": 195.26
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "부양의무자 조사 사업 해당자에 한함(부양의무자: ① 수급권자의 1촌의 직계혈족, ② 수급권자의 1촌의 직계혈족의 배우자, 다만 사망한 1촌의 직계혈족의 배우자는 제외)",
+    "source": "official",
+    "label": "공식 서식 작성 방법 7)"
+   },
+   "also": {
+    "text": "이 중 부양의무자 항목을 제외한 나머지 3개 항목을 작성하셔야 합니다.",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "videoExplained": true,
+   "videoText": "이 중 부양의무자 항목을 제외한 나머지 3개 항목을 작성하셔야 합니다.",
+   "sectionGuide": "이 중 부양의무자 항목을 제외한 나머지 3개 항목을 작성하셔야 합니다."
+  },
+  {
+   "id": "p1_acc_rel",
+   "page": 1,
+   "section": "급여계좌",
+   "label": "신청인과의 관계",
+   "box": [
+    161,
+    1175,
+    265,
+    1196
+   ],
+   "scene": {
+    "start": 285.32,
+    "end": 325.32
+   },
+   "sceneLevel": "section",
+   "write": null,
+   "also": null,
+   "videoExplained": false,
+   "videoText": null,
+   "sectionGuide": "급여계좌 항목에는 기초연금을 지급받을 본인의 계좌정보를 작성해 주시기 바랍니다."
+  },
+  {
+   "id": "p1_acc_name",
+   "page": 1,
+   "section": "급여계좌",
+   "label": "성명",
+   "box": [
+    281,
+    1187,
+    323,
+    1208
+   ],
+   "scene": {
+    "start": 285.32,
+    "end": 325.32
+   },
+   "sceneLevel": "section",
+   "write": null,
+   "also": null,
+   "videoExplained": false,
+   "videoText": null,
+   "sectionGuide": "급여계좌 항목에는 기초연금을 지급받을 본인의 계좌정보를 작성해 주시기 바랍니다."
+  },
+  {
+   "id": "p1_bank",
+   "page": 1,
+   "section": "급여계좌",
+   "label": "금융기관명",
+   "box": [
+    378,
+    1187,
+    482,
+    1208
+   ],
+   "scene": {
+    "start": 285.32,
+    "end": 325.32
+   },
+   "sceneLevel": "section",
+   "write": null,
+   "also": null,
+   "videoExplained": false,
+   "videoText": null,
+   "sectionGuide": "급여계좌 항목에는 기초연금을 지급받을 본인의 계좌정보를 작성해 주시기 바랍니다."
+  },
+  {
+   "id": "p1_acc_no",
+   "page": 1,
+   "section": "급여계좌",
+   "label": "계좌번호",
+   "box": [
+    632,
+    1187,
+    715,
+    1208
+   ],
+   "scene": {
+    "start": 289.08,
+    "end": 314.08
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "급여계좌 항목에는 기초연금을 지급받을 본인의 계좌정보를 작성해 주시기 바랍니다.",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "급여계좌 항목에는 기초연금을 지급받을 본인의 계좌정보를 작성해 주시기 바랍니다.",
+   "sectionGuide": "급여계좌 항목에는 기초연금을 지급받을 본인의 계좌정보를 작성해 주시기 바랍니다."
+  },
+  {
+   "id": "p1_acc_note",
+   "page": 1,
+   "section": "급여계좌",
+   "label": "비고(사유)",
+   "box": [
+    914,
+    1187,
+    1018,
+    1208
+   ],
+   "scene": {
+    "start": 285.32,
+    "end": 325.32
+   },
+   "sceneLevel": "section",
+   "write": {
+    "text": "동일 보장가구원의 계좌가 아닐 경우 사유를 반드시 기재하고, 디딤씨앗계좌(CDA) 또는 압류방지통장이 있는 경우에도 반드시 기재",
+    "source": "official",
+    "label": "공식 서식 작성 방법 8)"
+   },
+   "also": null,
+   "videoExplained": false,
+   "videoText": null,
+   "sectionGuide": "급여계좌 항목에는 기초연금을 지급받을 본인의 계좌정보를 작성해 주시기 바랍니다."
+  },
+  {
+   "id": "p1_notice",
+   "page": 1,
+   "section": "통지방법",
+   "label": "통지방법",
+   "box": [
+    152,
+    1344,
+    236,
+    1365
+   ],
+   "scene": {
+    "start": 335.88,
+    "end": 360.88
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "첫 번째 장 마지막에는 통지방법 선택란이 있습니다.",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "첫 번째 장 마지막에는 통지방법 선택란이 있습니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p2_pension",
+   "page": 2,
+   "section": "보장구분",
+   "label": "노인 · 기초연금",
+   "box": [
+    311,
+    564,
+    394,
+    581
+   ],
+   "scene": {
+    "start": 387.58,
+    "end": 402.92
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "여러 보장구분 항목 중 노인란의 기초연금을 체크해 주시기 바랍니다.",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "여러 보장구분 항목 중 노인란의 기초연금을 체크해 주시기 바랍니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p2_pension_sp",
+   "page": 2,
+   "section": "보장구분",
+   "label": "배우자 동시 신청",
+   "box": [
+    427,
+    564,
+    569,
+    581
+   ],
+   "scene": {
+    "start": 397.72,
+    "end": 402.92
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "괄호 안에 있는 배우자 동시신청에도 함께 체크해 주시기 바랍니다.",
+    "source": "video",
+    "label": "영상 화면 기준 · 자막 오타 고침"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "괄호 안에 있는 배우자 동시신청에도 함께 체크해 주시기 바랍니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p2_fee_q",
+   "page": 2,
+   "section": "요금 감면",
+   "label": "자격구분 · 기초연금",
+   "box": [
+    727,
+    822,
+    794,
+    839
+   ],
+   "scene": {
+    "start": 443.96,
+    "end": 468.96
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "휴대전화요금 감면 혜택을 받고자 하신다면, 다음과 같이 기초연금과 휴대전화요금 란에 각각 체크해 주시기 바랍니다.",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "휴대전화요금 감면 혜택을 받고자 하신다면, 다음과 같이 기초연금과 휴대전화요금 란에 각각 체크해 주시기 바랍니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p2_fee_all",
+   "page": 2,
+   "section": "요금 감면",
+   "label": "전체 신청",
+   "box": [
+    290,
+    851,
+    365,
+    868
+   ],
+   "scene": {
+    "start": 402.92,
+    "end": 442.92
+   },
+   "sceneLevel": "section",
+   "write": null,
+   "also": null,
+   "videoExplained": false,
+   "videoText": null,
+   "sectionGuide": null
+  },
+  {
+   "id": "p2_fee_mobile",
+   "page": 2,
+   "section": "요금 감면",
+   "label": "휴대전화요금",
+   "box": [
+    927,
+    877,
+    1028,
+    894
+   ],
+   "scene": {
+    "start": 443.96,
+    "end": 468.96
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "휴대전화요금 감면 혜택을 받고자 하신다면, 다음과 같이 기초연금과 휴대전화요금 란에 각각 체크해 주시기 바랍니다.",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "휴대전화요금 감면 혜택을 받고자 하신다면, 다음과 같이 기초연금과 휴대전화요금 란에 각각 체크해 주시기 바랍니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p2_carrier",
+   "page": 2,
+   "section": "요금 감면",
+   "label": "이동통신사",
+   "box": [
+    692,
+    975,
+    775,
+    991
+   ],
+   "scene": {
+    "start": 453.6,
+    "end": 478.6
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "체크 후 현재 사용하고 계시는 휴대전화의 이동통신사를 찾아 체크해 주시기 바랍니다.",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "체크 후 현재 사용하고 계시는 휴대전화의 이동통신사를 찾아 체크해 주시기 바랍니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p2_fee_family",
+   "page": 2,
+   "section": "요금 감면",
+   "label": "가구원 추가 기재",
+   "box": [
+    440,
+    1040,
+    574,
+    1057
+   ],
+   "scene": {
+    "start": 459.3,
+    "end": 484.3
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "배우자 동시신청의 경우 배우자의 휴대전화 요금 감면도 희망하신다면 가족사항에 배우자 정보를 작성하신 후 배우자가 사용하고 계시는 휴대전화의 이동통신사를 체크해 주시기 바랍니다.",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "배우자 동시신청의 경우 배우자의 휴대전화 요금 감면도 희망하신다면 가족사항에 배우자 정보를 작성하신 후 배우자가 사용하고 계시는 휴대전화의 이동통신사를 체크해 주시기 바랍니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p2_privacy",
+   "page": 2,
+   "section": "개인정보 수집 동의",
+   "label": "개인정보 수집 및 활용 동의",
+   "box": [
+    441,
+    1187,
+    712,
+    1208
+   ],
+   "scene": {
+    "start": 504.68,
+    "end": 516.98
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "두 번째 장 하단부터 세 번째 장 상단에 걸쳐 개인정보수집 및 활용동의란이 있습니다. 해당 내용을 꼼꼼히 읽으신 후 확인란에 체크해 주시기 바랍니다.",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "두 번째 장 하단부터 세 번째 장 상단에 걸쳐 개인정보수집 및 활용동의란이 있습니다. 해당 내용을 꼼꼼히 읽으신 후 확인란에 체크해 주시기 바랍니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p3_third",
+   "page": 3,
+   "section": "제3자 제공 동의",
+   "label": "개인정보 제3자 제공 동의",
+   "box": [
+    452,
+    125,
+    702,
+    145
+   ],
+   "scene": {
+    "start": 516.98,
+    "end": 531.9
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "3페이지 상단에 제3자 제공에 관한 사항은 앞서 살펴본 휴대전화요금 감면 신청에 필요한 사항입니다.",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "3페이지 상단에 제3자 제공에 관한 사항은 앞서 살펴본 휴대전화요금 감면 신청에 필요한 사항입니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p3_optional",
+   "page": 3,
+   "section": "선택적 동의",
+   "label": "선택적 동의",
+   "box": [
+    520,
+    372,
+    634,
+    393
+   ],
+   "scene": {
+    "start": 531.9,
+    "end": 539.16
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "선택적 동의라는 기초연금 신청과는 관련이 없는 부분이니 넘어가도록 하겠습니다.",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "선택적 동의라는 기초연금 신청과는 관련이 없는 부분이니 넘어가도록 하겠습니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p3_caution",
+   "page": 3,
+   "section": "유의사항",
+   "label": "유의사항 확인",
+   "box": [
+    520,
+    785,
+    634,
+    806
+   ],
+   "scene": {
+    "start": 540.9,
+    "end": 546.98
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "유의사항의 내용을 차근차근 읽어보신 후 확인란에 체크해 주시기 바랍니다.",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "유의사항의 내용을 차근차근 읽어보신 후 확인란에 체크해 주시기 바랍니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p3_date",
+   "page": 3,
+   "section": "신청인 서명",
+   "label": "신청 연월일",
+   "box": [
+    947,
+    1458,
+    966,
+    1477
+   ],
+   "scene": {
+    "start": 546.98,
+    "end": 564.18
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "마지막으로 세 번째 장 맨 밑에 있는 신청연월일과 신청인 성명, 서명란을 작성해 주시기 바랍니다.",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "마지막으로 세 번째 장 맨 밑에 있는 신청연월일과 신청인 성명, 서명란을 작성해 주시기 바랍니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p3_sign",
+   "page": 3,
+   "section": "신청인 서명",
+   "label": "신청인(대리 신청인) 성명·서명",
+   "box": [
+    532,
+    1490,
+    646,
+    1511
+   ],
+   "scene": {
+    "start": 546.98,
+    "end": 564.18
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "가족, 친족(8촌이내의 혈족, 4촌이내의 인척), 사회복지담당공무원 및 기타 관계인(후견인) 등",
+    "source": "official",
+    "label": "공식 서식 작성 방법 12)"
+   },
+   "also": {
+    "text": "마지막으로 세 번째 장 맨 밑에 있는 신청연월일과 신청인 성명, 서명란을 작성해 주시기 바랍니다.",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "videoExplained": true,
+   "videoText": "마지막으로 세 번째 장 맨 밑에 있는 신청연월일과 신청인 성명, 서명란을 작성해 주시기 바랍니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p3_sign_sp",
+   "page": 3,
+   "section": "신청인 서명",
+   "label": "배우자 성명·서명",
+   "box": [
+    512,
+    1513,
+    804,
+    1534
+   ],
+   "scene": {
+    "start": 556.54,
+    "end": 564.18
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "배우자 동시 신청을 하는 경우라면 배우자의 성명과 서명도 반드시 함께 작성해 주시기 바랍니다.",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "배우자 동시 신청을 하는 경우라면 배우자의 성명과 서명도 반드시 함께 작성해 주시기 바랍니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p4_period",
+   "page": 4,
+   "section": "4쪽 안내",
+   "label": "처리기한",
+   "box": [
+    146,
+    262,
+    193,
+    281
+   ],
+   "scene": {
+    "start": 573.9,
+    "end": 598.78
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "처리기한은 기본 30일로 정해져 있지만 사실 60일까지 연장되는 경우가 많이 있습니다.",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "처리기한은 기본 30일로 정해져 있지만 사실 60일까지 연장되는 경우가 많이 있습니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p4_forms",
+   "page": 4,
+   "section": "구비서식",
+   "label": "신청시 구비서식",
+   "box": [
+    221,
+    674,
+    362,
+    693
+   ],
+   "scene": {
+    "start": 598.78,
+    "end": 623.78
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "사회보장급여신청서 외에도 소득재산신고서와 금융정보 등 제공동의서 2개의 서식을 필수적으로 제출해야 합니다.",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "사회보장급여신청서 외에도 소득재산신고서와 금융정보 등 제공동의서 2개의 서식을 필수적으로 제출해야 합니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p4_docs",
+   "page": 4,
+   "section": "구비서식",
+   "label": "추가 제출서류",
+   "box": [
+    730,
+    674,
+    851,
+    693
+   ],
+   "scene": {
+    "start": 598.78,
+    "end": 623.78
+   },
+   "sceneLevel": "field",
+   "write": {
+    "text": "여기에 신청인의 신분증이 필요하며 통장계좌번호사본도 함께 준비해야 합니다.",
+    "source": "video",
+    "label": "영상 화면 기준"
+   },
+   "also": null,
+   "videoExplained": true,
+   "videoText": "여기에 신청인의 신분증이 필요하며 통장계좌번호사본도 함께 준비해야 합니다.",
+   "sectionGuide": null
+  },
+  {
+   "id": "p4_where",
+   "page": 4,
+   "section": "구비서식",
+   "label": "제출하는 곳",
+   "box": [
+    162,
+    1460,
+    265,
+    1479
+   ],
+   "scene": {
+    "start": 598.78,
+    "end": 638.78
+   },
+   "sceneLevel": "section",
+   "write": null,
+   "also": null,
+   "videoExplained": false,
+   "videoText": null,
+   "sectionGuide": null
+  }
+ ]
+}

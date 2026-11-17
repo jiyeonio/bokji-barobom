@@ -1,0 +1,56 @@
+{
+ "youtubeId": "_18u1JS6oh4",
+ "status": "auto",
+ "source": "make_chapters",
+ "chapters": [
+  {
+   "id": "s3_1",
+   "start": 178.2,
+   "end": 202.5,
+   "title": "계좌 인증 입력",
+   "short": "계좌 인증 입력",
+   "step": 3,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "기본 정보가 맞다면 아래 신청 정보란에 신청 유형을 선택하시고 계좌번호를 입력 후 계좌 인증 버튼을 눌러주세요. 입력하신 계좌는 변경할 수 없으므로 압류 계좌, 휴면 계좌 등 정보를 미리 확인하시고 진행해주세요. 개",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 0.997
+  },
+  {
+   "id": "s2_2",
+   "start": 202.5,
+   "end": 232.1,
+   "title": "서류 첨부 요청 화면",
+   "short": "서류 첨부 요청",
+   "step": 2,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "부득이한 경우로 대표자 본인 명의 계좌가 아닌 타계자로 입금을 희망할 경우에는 위임장 및 관계 증빙을 할 수 있는 서류를 첨부하여 신청하세요. 확인 지급 신청을 하시는 분들은 유형별로 별도의 첨부 서류를 제출하셔야 ",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 0.947
+  },
+  {
+   "id": "s4_3",
+   "start": 232.1,
+   "end": 287.2,
+   "title": "신청 완료 확인",
+   "short": "신청 완료 확인",
+   "step": 4,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "사업자 등록증은 기본적으로 제출하셔야 합니다 첨부서류 업로드가 끝나셨다면 신청 완료 버튼을 눌러주세요 이 화면을 끝으로 관련 정보 수정이나 신청 취소가 어렵습니다 신중하게 확인 버튼을 눌러주세요. 확인을 선택하시면 ",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 1.0
+  }
+ ],
+ "generatedAt": "2026-11-15 04:57"
+}

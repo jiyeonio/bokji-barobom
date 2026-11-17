@@ -1,0 +1,141 @@
+{
+ "youtubeId": "BIbOi1uOWJY",
+ "generatedAt": "2026-11-15 04:57",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 36.0,
+   "title": "신청 전 준비",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말, 10초 이후",
+   "pYes": 1.0
+  },
+  {
+   "start": 36.0,
+   "end": 64.0,
+   "title": "앱 다운로드 안내",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.0
+  },
+  {
+   "start": 64.0,
+   "end": 96.0,
+   "title": "프로필 업데이트 중",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.148
+  },
+  {
+   "start": 96.0,
+   "end": 212.0,
+   "title": "휴대폰 인증번호 입력",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말",
+   "pYes": 0.835
+  },
+  {
+   "start": 212.0,
+   "end": 234.0,
+   "title": "재무상태 입력",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말",
+   "pYes": 0.999
+  },
+  {
+   "start": 234.0,
+   "end": 256.0,
+   "title": "정보 입력 화면",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말",
+   "pYes": 1.0
+  },
+  {
+   "start": 256.0,
+   "end": 346.0,
+   "title": "신청서 작성 완료",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말",
+   "pYes": 0.999
+  },
+  {
+   "start": 346.0,
+   "end": 384.0,
+   "title": "신청서 정보 입력",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말",
+   "pYes": 1.0
+  },
+  {
+   "start": 384.0,
+   "end": 438.0,
+   "title": "신청서 작성 중",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말",
+   "pYes": 1.0
+  },
+  {
+   "start": 438.0,
+   "end": 508.0,
+   "title": "신청서 작성",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말",
+   "pYes": 0.998
+  },
+  {
+   "start": 508.0,
+   "end": 776.0,
+   "title": "소득 정보 입력",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말",
+   "pYes": 1.0
+  },
+  {
+   "start": 776.0,
+   "end": 912.0,
+   "title": "신청서 작성",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말",
+   "pYes": 1.0
+  },
+  {
+   "start": 912.0,
+   "end": 934.0,
+   "title": "서류제출 신청하기",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.095
+  },
+  {
+   "start": 934.0,
+   "end": 958.0,
+   "title": "서류 업로드 완료",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말",
+   "pYes": 0.982
+  },
+  {
+   "start": 958.0,
+   "end": 980.0,
+   "title": "복지 신청 안내",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  }
+ ]
+}

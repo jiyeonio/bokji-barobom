@@ -1,0 +1,130 @@
+{
+ "youtubeId": "qCoHO1-5eSU",
+ "generatedAt": "2026-11-15 04:57",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 69.7,
+   "title": "개인예산제란?",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 69.7,
+   "end": 103.3,
+   "title": "2026년 개인예산제 시범사업",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 103.3,
+   "end": 135.4,
+   "title": "수도권 특별시 광역시 지정",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.0
+  },
+  {
+   "start": 135.4,
+   "end": 177.7,
+   "title": "2026년 복지 신청 지역 설명",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 177.7,
+   "end": 246.0,
+   "title": "시범사업 참여자 선정",
+   "step": 4,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 246.0,
+   "end": 275.4,
+   "title": "정산 및 모니터링 단계",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.294
+  },
+  {
+   "start": 275.4,
+   "end": 451.6,
+   "title": "개인예산제 신청 자격",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 451.6,
+   "end": 471.9,
+   "title": "이사 계획 및 급여 확인",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.0
+  },
+  {
+   "start": 471.9,
+   "end": 546.8,
+   "title": "개인예산제 신청 조건",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 546.8,
+   "end": 617.8,
+   "title": "신청 방법 및 준비물",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.974
+  },
+  {
+   "start": 617.8,
+   "end": 645.2,
+   "title": "신청 전 확인사항",
+   "step": 1,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.818
+  },
+  {
+   "start": 645.2,
+   "end": 685.1,
+   "title": "개인예산제 설명 확인",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말",
+   "pYes": 0.994
+  },
+  {
+   "start": 685.1,
+   "end": 786.1,
+   "title": "신청서 작성 안내",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 786.1,
+   "end": 848.0,
+   "title": "수급권 확인 체크",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.0
+  }
+ ]
+}

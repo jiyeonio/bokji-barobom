@@ -1,0 +1,43 @@
+{
+ "youtubeId": "1NFNR-HUtxs",
+ "generatedAt": "2026-11-15 04:57",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 176.0,
+   "title": "예치금 충전 하면",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말, 10초 이후",
+   "pYes": 1.0
+  },
+  {
+   "start": 176.0,
+   "end": 200.0,
+   "title": "돌봄요청 버튼 클릭",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.407
+  },
+  {
+   "start": 200.0,
+   "end": 222.0,
+   "title": "서비스 취소 요청",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.002
+  },
+  {
+   "start": 222.0,
+   "end": 256.0,
+   "title": "일시연계 신청 화면",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말",
+   "pYes": 0.997
+  }
+ ]
+}

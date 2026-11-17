@@ -1,0 +1,42 @@
+{
+ "youtubeId": "ACchjnCoZ7A",
+ "generatedAt": "2026-11-15 04:55",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 136.9,
+   "title": "정부지원 여부 확인",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 10초 이후",
+   "pYes": 0.0
+  },
+  {
+   "start": 136.9,
+   "end": 159.3,
+   "title": "야간·주말 돌봄 서비스 요청",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.001
+  },
+  {
+   "start": 159.3,
+   "end": 205.0,
+   "title": "정기이용 서비스 신청",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.269
+  },
+  {
+   "start": 205.0,
+   "end": 253.0,
+   "title": "아이돌봄 서비스 안내",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  }
+ ]
+}

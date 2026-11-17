@@ -1,0 +1,41 @@
+{
+ "youtubeId": "sgTPYM9v04I",
+ "generatedAt": "2026-11-15 04:56",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 37.0,
+   "title": "복지용구 이용 대상",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말, 10초 이후",
+   "pYes": 0.01
+  },
+  {
+   "start": 37.0,
+   "end": 114.4,
+   "title": "방과 화장실 복지용구 소개",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 114.4,
+   "end": 188.0,
+   "title": "복지용구 급여확인서 확인",
+   "step": 2,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 188.0,
+   "end": 224.0,
+   "title": "노인장기요양보험 안내",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  }
+ ]
+}

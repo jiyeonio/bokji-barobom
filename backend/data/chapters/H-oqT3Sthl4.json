@@ -1,0 +1,33 @@
+{
+ "youtubeId": "H-oqT3Sthl4",
+ "generatedAt": "2026-11-15 04:56",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 63.5,
+   "title": "청년 월세 지원 사연 소개",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 63.5,
+   "end": 97.1,
+   "title": "기준 중위소득 120% 이하 신청 가",
+   "step": 1,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.958
+  },
+  {
+   "start": 97.1,
+   "end": 141.0,
+   "title": "청년 월세 지원 도전해보세요",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.001
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "youtubeId": "C4rra31STNk",
+ "status": "auto",
+ "source": "make_chapters",
+ "chapters": [
+  {
+   "id": "s2_3",
+   "start": 163.3,
+   "end": 197.9,
+   "title": "의사소견서 제출 필수",
+   "short": "의사소견서 제출",
+   "step": 2,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "대리인 신분증을 함께 제출해야 합니다 65세 미만의 노인성 질병을 가진 경우라면 장기 요양인정신청서와 함께 노인성 질병 여부를 확인할 수 있는 의사소견서 또는 진단서를 제출해야 합니다 진단서로 노인성 질병을 입증한 ",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 0.999
+  }
+ ],
+ "generatedAt": "2026-11-15 04:55"
+}

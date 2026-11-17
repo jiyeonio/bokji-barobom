@@ -1,0 +1,51 @@
+{
+ "youtubeId": "KBBwdz4sidM",
+ "generatedAt": "2026-11-15 04:55",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 22.5,
+   "title": "기초연금 사기 예방 안내",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 22.5,
+   "end": 48.5,
+   "title": "복지 신청 비용 문의",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.0
+  },
+  {
+   "start": 48.5,
+   "end": 143.3,
+   "title": "기초연금 신청 절차 안내",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.002
+  },
+  {
+   "start": 143.3,
+   "end": 188.5,
+   "title": "대리 신청 가능 여부 설명",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 188.5,
+   "end": 278.0,
+   "title": "대리인 신분증과 위임장 필요",
+   "step": 2,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  }
+ ]
+}

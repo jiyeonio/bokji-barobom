@@ -1,0 +1,33 @@
+{
+ "youtubeId": "t7_0XxG-jTI",
+ "generatedAt": "2026-11-15 04:56",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 68.0,
+   "title": "모바일로 복지 신청",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말, 10초 이후",
+   "pYes": 0.0
+  },
+  {
+   "start": 68.0,
+   "end": 106.0,
+   "title": "복지 신청 자격 확인",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말",
+   "pYes": 1.0
+  },
+  {
+   "start": 106.0,
+   "end": 127.0,
+   "title": "복지 안내 영상",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  }
+ ]
+}

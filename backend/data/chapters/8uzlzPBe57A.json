@@ -1,0 +1,76 @@
+{
+ "youtubeId": "8uzlzPBe57A",
+ "generatedAt": "2026-11-15 04:57",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 132.1,
+   "title": "인증 준비 단계",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 10초 이후",
+   "pYes": 0.0
+  },
+  {
+   "start": 132.1,
+   "end": 180.4,
+   "title": "서류 준비 및 심사 준비",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.133
+  },
+  {
+   "start": 180.4,
+   "end": 215.7,
+   "title": "심사 장소 확보 및 준비",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.119
+  },
+  {
+   "start": 215.7,
+   "end": 247.3,
+   "title": "현장 심사 시간 및 절차",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.0
+  },
+  {
+   "start": 247.3,
+   "end": 318.3,
+   "title": "심사 결과 확인 단계",
+   "step": 4,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 318.3,
+   "end": 357.7,
+   "title": "인증기관 지원 프로그램",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 357.7,
+   "end": 407.0,
+   "title": "인증 신청 및 자주 묻는 질문",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 407.0,
+   "end": 458.0,
+   "title": "인증 준비 중 질문 안내",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  }
+ ]
+}

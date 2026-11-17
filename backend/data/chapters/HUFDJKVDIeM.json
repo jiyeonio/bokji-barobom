@@ -1,0 +1,32 @@
+{
+ "youtubeId": "HUFDJKVDIeM",
+ "generatedAt": "2026-11-15 04:54",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 37.2,
+   "title": "국민연금 앱 다운로드",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 37.2,
+   "end": 112.6,
+   "title": "국민연금 앱 로그인",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 112.6,
+   "end": 191.0,
+   "title": "국민연금 가입기간 확인",
+   "step": 4,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  }
+ ]
+}

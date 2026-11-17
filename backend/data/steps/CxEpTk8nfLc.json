@@ -1,0 +1,72 @@
+{
+ "youtubeId": "CxEpTk8nfLc",
+ "status": "auto",
+ "source": "make_chapters",
+ "chapters": [
+  {
+   "id": "s3_1",
+   "start": 53.5,
+   "end": 85.0,
+   "title": "사업장 및 피보험자 정보 입력",
+   "short": "사업장 및 피보",
+   "step": 3,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "고용보험, 건강보험, 국민연금 등 4대 보험 EDI 사이트를 통해 편리하게 전자신고하는 방법이 있으니 이를 적극 활용해 주시기 바랍니다. 1번부터 9번까지는 사업장 정보와 피보험자의 기본 인적사항을 작성하는 칸입니다",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 0.996
+  },
+  {
+   "id": "s3_3",
+   "start": 115.0,
+   "end": 146.4,
+   "title": "이직사유 구분 코드 입력",
+   "short": "이직사유 구분 ",
+   "step": 3,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "12번 이직사유는 근로자가 퇴사한 사유를 의미합니다. 이직사유는 상실신고 시 작성한 상실사유와 동일해야 합니다. 이는 실업급여 수급자격 여부를 판단하는 기초자료이므로 정확하고 구체적으로 작성해 주시기 바랍니다. 이직",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 0.996
+  },
+  {
+   "id": "s3_4",
+   "start": 146.4,
+   "end": 270.3,
+   "title": "퇴사일자 기간 작성",
+   "short": "퇴사일자 기간 ",
+   "step": 3,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "그에 대한 구체적인 사유도 반드시 적어주시기 바랍니다 이직 사유를 차고 또는 거짓으로 작성하는 경우 정정하는 절차가 까다롭고 피보험자 한 명당 과태료가 5만원부터 최대 300만원까지 부과될 수 있으니 이 점 유의하여",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 0.991
+  },
+  {
+   "id": "s3_6",
+   "start": 311.6,
+   "end": 360.9,
+   "title": "기준기간 연장 및 임금계산기간 작성",
+   "short": "기준기간 연장 ",
+   "step": 3,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "예시에 안내된 근로자의 퇴사일자에 따라 화면을 참고하여 작성하시기 바랍니다 16번 기준기간 연장은 근로자가 이직일 이전 18개월 이내에 30일 이상 보수를 받을 수 없었던 기간이 있는 경우에만 그 기간과 사유를 작성",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 0.999
+  }
+ ],
+ "generatedAt": "2026-11-15 04:55"
+}

@@ -1,0 +1,32 @@
+{
+ "youtubeId": "KL3MGqgl378",
+ "generatedAt": "2026-11-15 04:56",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 53.6,
+   "title": "치매 조기 발견 중요성",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 53.6,
+   "end": 99.1,
+   "title": "치매선별검사 안내",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.002
+  },
+  {
+   "start": 99.1,
+   "end": 154.0,
+   "title": "치매 진단 검사 절차",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  }
+ ]
+}

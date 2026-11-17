@@ -1,0 +1,33 @@
+{
+ "youtubeId": "1tEk_OytD7Y",
+ "generatedAt": "2026-11-15 04:56",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 31.2,
+   "title": "LH 행복주택 청약 안내",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 31.2,
+   "end": 84.4,
+   "title": "입주계층별 자격 확인",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.407
+  },
+  {
+   "start": 84.4,
+   "end": 134.0,
+   "title": "입주자 선정 및 당첨자 발표",
+   "step": 4,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.047
+  }
+ ]
+}

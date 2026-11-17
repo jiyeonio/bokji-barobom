@@ -1,0 +1,70 @@
+# ===== 환경변수: 실제 값은 커밋하지 않고 예시 파일만 포함 =====
+.env
+.env.*
+!.env.example
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+# 끝에 '/'를 붙이지 않음: 실제 폴더와 심볼릭 링크 모두 무시
+.venv
+venv
+.pytest_cache/
+
+# ===== Node / 프론트엔드 빌드 결과 =====
+node_modules/
+dist/
+build/
+.vite/
+coverage/
+*.log
+
+# ===== 데이터·모델 (용량이 커서 저장소에 포함하지 않음) =====
+# data/: 다운로드한 영상, Whisper 자막, 영상 특징 파일 (실행 중 자동 생성)
+/data
+# Moment-DETR 원본 체크아웃·실험 산출물
+/ai/external
+# 인수인계 자료(테스트 영상, 다국어 CLIP 등 모델 파일). 로컬 링크로만 사용
+/ai/experiments/korean_ai_handoff
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.onnx
+*.npy
+*.npz
+*.mp4
+*.mov
+*.mp3
+*.wav
+*.tar
+*.zip
+
+# ===== 작업용 파일 =====
+*.bak
+*.bak_*
+ai/features/test_*.py
+*.ipynb_checkpoints/
+cookies*.txt
+
+# ===== OS / 에디터 =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+!models/moment_detr/*.ckpt
+
+# 공모전 제출 전 비공개 제안서
+docs/proposal.md
+
+# 공모전 제안서 (제출 전 공개 금지) — 어느 위치든 커밋하지 않음
+proposal*.md
+docs/proposal*.md
+
+# Claude API SDK 등 .venv에 없는 파이썬 패키지 (저장소 안 별도 설치, git 제외) — uv pip install --target pylib --python .venv/bin/python anthropic
+pylib/
+backend/data/rag/emb.npy
+backend/data/rag/emb.json
+eval/results/*
+!eval/results/.gitkeep

@@ -1,0 +1,61 @@
+{
+ "youtubeId": "SfKD_WW0qQY",
+ "generatedAt": "2026-11-15 04:54",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 29.4,
+   "title": "동주민센터 방문 신청",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말, 10초 이후",
+   "pYes": 0.0
+  },
+  {
+   "start": 29.4,
+   "end": 56.4,
+   "title": "가구 유형 판정 및 통보",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.0
+  },
+  {
+   "start": 56.4,
+   "end": 105.7,
+   "title": "소득 기준에 따른 가구 유형",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.349
+  },
+  {
+   "start": 105.7,
+   "end": 149.7,
+   "title": "국민행복카드 확인",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 149.7,
+   "end": 192.5,
+   "title": "회원 가입 절차",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.0
+  },
+  {
+   "start": 192.5,
+   "end": 388.0,
+   "title": "정회원 전환 신청",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.378
+  }
+ ]
+}

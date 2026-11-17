@@ -1,0 +1,33 @@
+{
+ "youtubeId": "ZUQkLBNQSyk",
+ "generatedAt": "2026-11-15 04:56",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 34.0,
+   "title": "아이돌봄서비스 대상자 확인",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말, 10초 이후",
+   "pYes": 1.0
+  },
+  {
+   "start": 34.0,
+   "end": 116.0,
+   "title": "아이돌봄서비스 이용안내",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말",
+   "pYes": 0.986
+  },
+  {
+   "start": 116.0,
+   "end": 139.0,
+   "title": "2026년 아이돌봄서비스 신청 안내",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  }
+ ]
+}

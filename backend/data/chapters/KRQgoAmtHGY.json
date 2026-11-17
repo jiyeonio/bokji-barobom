@@ -1,0 +1,132 @@
+{
+ "youtubeId": "KRQgoAmtHGY",
+ "generatedAt": "2026-11-15 04:54",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 37.4,
+   "title": "실업인정 신청 방법 안내",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말, 10초 이후",
+   "pYes": 0.0
+  },
+  {
+   "start": 37.4,
+   "end": 160.8,
+   "title": "고용보험 초보자 가이드",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 160.8,
+   "end": 228.1,
+   "title": "계좌번호 입력 안내",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.982
+  },
+  {
+   "start": 228.1,
+   "end": 279.3,
+   "title": "근로·산재·취업 내역 체크",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 279.3,
+   "end": 305.9,
+   "title": "부정수급 경고 확인",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.996
+  },
+  {
+   "start": 305.9,
+   "end": 406.3,
+   "title": "구직활동 내역 체크",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.995
+  },
+  {
+   "start": 406.3,
+   "end": 473.2,
+   "title": "취업특강 프로그램 안내",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 473.2,
+   "end": 533.9,
+   "title": "신청서 작성 중",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.999
+  },
+  {
+   "start": 533.9,
+   "end": 558.2,
+   "title": "신청서 확인 및 제출",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.953
+  },
+  {
+   "start": 558.2,
+   "end": 583.2,
+   "title": "신청서 제출 및 확인",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.269
+  },
+  {
+   "start": 583.2,
+   "end": 617.8,
+   "title": "1차 실업인정 신청 완료",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.932
+  },
+  {
+   "start": 617.8,
+   "end": 639.5,
+   "title": "신청서 확인 및 계좌 변경",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.076
+  },
+  {
+   "start": 639.5,
+   "end": 795.0,
+   "title": "실업급여 신청서 작성",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 795.0,
+   "end": 835.0,
+   "title": "신청서 확인 및 제출",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.133
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "youtubeId": "cruEwpl3hxU",
+ "generatedAt": "2026-11-15 04:56",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 218.8,
+   "title": "치매 조기검진 정보 제공",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 218.8,
+   "end": 247.4,
+   "title": "치매 선별 검사 결과 설명",
+   "step": 4,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 247.4,
+   "end": 282.3,
+   "title": "치매선별검사 안내",
+   "step": 4,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.001
+  },
+  {
+   "start": 282.3,
+   "end": 341.0,
+   "title": "치매진단검사 1단계 설명",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 341.0,
+   "end": 373.6,
+   "title": "진단검사 1단계 안내",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.002
+  },
+  {
+   "start": 373.6,
+   "end": 423.4,
+   "title": "진단검사 2단계: 전문의 면담",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 423.4,
+   "end": 476.2,
+   "title": "진단검사 2단계 안내",
+   "step": 4,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 476.2,
+   "end": 534.0,
+   "title": "치매 감별검사란?",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.0
+  },
+  {
+   "start": 534.0,
+   "end": 557.6,
+   "title": "검사비 지원 대상 안내",
+   "step": 1,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 557.6,
+   "end": 585.0,
+   "title": "양천구 치매안심센터 연락처",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 585.0,
+   "end": 637.0,
+   "title": "치매 조기검진 안내",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  }
+ ]
+}

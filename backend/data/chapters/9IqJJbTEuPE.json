@@ -1,0 +1,34 @@
+{
+ "youtubeId": "9IqJJbTEuPE",
+ "generatedAt": "2026-11-15 04:54",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 92.0,
+   "title": "URL 입력 화면",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말, 10초 이후",
+   "pYes": 1.0
+  },
+  {
+   "start": 92.0,
+   "end": 140.0,
+   "title": "소득 정보 입력",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말",
+   "pYes": 0.991
+  },
+  {
+   "start": 140.0,
+   "end": 161.0,
+   "title": "복지 신청 완료",
+   "step": 4,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.005
+  }
+ ]
+}

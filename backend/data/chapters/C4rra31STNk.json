@@ -1,0 +1,79 @@
+{
+ "youtubeId": "C4rra31STNk",
+ "generatedAt": "2026-11-15 04:55",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 42.6,
+   "title": "노인장기요양보험란?",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 10초 이후",
+   "pYes": 0.0
+  },
+  {
+   "start": 42.6,
+   "end": 90.9,
+   "title": "장기요양 등급 분류 설명",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 90.9,
+   "end": 163.3,
+   "title": "장기요양 신청 방법",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.001
+  },
+  {
+   "start": 163.3,
+   "end": 197.9,
+   "title": "의사소견서 제출 필수",
+   "step": 2,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.999
+  },
+  {
+   "start": 197.9,
+   "end": 228.6,
+   "title": "치매 진단 보완 서류 발급",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.085
+  },
+  {
+   "start": 228.6,
+   "end": 282.6,
+   "title": "장기요양 인정조사 방문 계획",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.0
+  },
+  {
+   "start": 282.6,
+   "end": 336.8,
+   "title": "장기요양 인정 재검토",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 336.8,
+   "end": 507.0,
+   "title": "장기요양등급 판정 절차",
+   "step": 4,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  }
+ ]
+}

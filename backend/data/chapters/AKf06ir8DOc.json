@@ -1,0 +1,69 @@
+{
+ "youtubeId": "AKf06ir8DOc",
+ "generatedAt": "2026-11-15 04:56",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 78.8,
+   "title": "국가장학금 소개",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 10초 이후",
+   "pYes": 0.0
+  },
+  {
+   "start": 78.8,
+   "end": 124.5,
+   "title": "학자금 지원구간 확인",
+   "step": 1,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.867
+  },
+  {
+   "start": 124.5,
+   "end": 301.6,
+   "title": "국가장학금 유형 안내",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.01
+  },
+  {
+   "start": 301.6,
+   "end": 326.0,
+   "title": "신청 정보 등록",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 326.0,
+   "end": 365.5,
+   "title": "전자서명 및 인증 절차",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 0.999
+  },
+  {
+   "start": 365.5,
+   "end": 411.2,
+   "title": "국가장학금 알림 신청",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.0
+  },
+  {
+   "start": 411.2,
+   "end": 443.0,
+   "title": "대학생활 응원 메시지",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  }
+ ]
+}

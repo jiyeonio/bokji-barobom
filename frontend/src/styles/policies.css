@@ -1,0 +1,45 @@
+/* 정책 찾기 · 정책 상세 (팀 최종 디자인 토큰 사용) */
+.page-policies .pl-search{display:flex;gap:.6rem;margin-top:1.2rem;max-width:760px}
+.page-policies .pl-search label{flex:1;display:flex;align-items:center;gap:.5rem;background:var(--surface,#fff);border:1px solid var(--line-2);border-radius:999px;padding:0 1.1rem;min-height:3.2rem}
+.page-policies .pl-search input{flex:1;border:0;background:transparent;font-size:1.05rem;outline:none;color:var(--ink)}
+.page-policies .pl-body{padding:1.4rem 0 3rem}
+.page-policies .pl-filters{display:flex;flex-direction:column;gap:.7rem;margin-bottom:1.2rem}
+.page-policies .pl-filters .row{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem}
+.page-policies .pl-filters .row>b{min-width:2.6rem;color:var(--ink-2)}
+.page-policies .pl-filters .chip{display:inline-flex;align-items:center;gap:.35rem;min-height:2.6rem;padding:0 1rem;background:var(--surface,#fff)}
+.page-policies .pl-filters .chip[aria-pressed="true"]{background:var(--navy,var(--ink));color:#fff;border-color:var(--navy,var(--ink))}
+.page-policies .pl-filters select{min-height:2.6rem;border:1px solid var(--line-2);border-radius:8px;padding:0 .8rem;background:var(--surface,#fff);color:var(--ink);font-size:1rem}
+.page-policies .pl-filters .ck{display:inline-flex;align-items:center;gap:.35rem;font-size:.95rem;color:var(--ink-2)}
+.page-policies .pl-count{margin:.4rem 0 .8rem;color:var(--ink-2)}
+.page-policies .pl-count b{font-size:1.2rem;color:var(--blue-dark,var(--blue))}
+.page-policies .pl-note{color:var(--muted);font-size:.9rem;margin:.8rem 0}
+.page-policies .pl-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+.page-policies .pl-item{display:flex;flex-direction:column;gap:.45rem;padding:1.1rem 1.25rem;color:inherit;text-decoration:none;height:100%}
+.page-policies .pl-item h3{margin:0;font-size:1.12rem}
+.page-policies .pl-item p{margin:0;color:var(--ink-2);font-size:.95rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.page-policies .pl-item .tg{display:flex;flex-wrap:wrap;gap:.3rem}
+.page-policies .pl-item .ft{margin-top:auto;display:flex;justify-content:space-between;gap:.5rem;font-size:.86rem;color:var(--muted)}
+.page-policies .pl-item .vd{font-weight:700}
+.page-policies .pl-item .vd.on{color:var(--blue);display:inline-flex;align-items:center;gap:.25rem}
+.page-policies .pl-more{display:block;margin:1.2rem auto 0}
+.page-policies .pl-back{display:inline-flex;align-items:center;gap:.3rem;color:var(--muted);font-size:.92rem;margin-bottom:.4rem;text-decoration:none}
+.page-policies .pl-detail{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:1.4rem;align-items:start}
+.page-policies .pl-sec{padding:1.3rem 1.5rem;margin-bottom:1.2rem}
+.page-policies .pl-sec h2{margin:0 0 .7rem;font-size:1.15rem;display:flex;align-items:center;gap:.4rem}
+.page-policies .pl-strip{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;font-size:.86rem;color:var(--muted);margin-bottom:.8rem}
+.page-policies .pl-strip span{margin-left:auto}
+.page-policies .pl-lead{font-size:1.08rem;font-weight:600;margin:0 0 1rem}
+.page-policies .pl-f{border-top:1px solid var(--line);padding:.8rem 0}
+.page-policies .pl-f h3{margin:0 0 .3rem;font-size:.95rem;color:var(--ink-2)}
+.page-policies .pl-f p{margin:0;white-space:pre-line;line-height:1.65}
+.page-policies .pl-links{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.8rem}
+.page-policies .pl-vid{display:flex;gap:.7rem;align-items:center;text-decoration:none;color:inherit;margin-bottom:.7rem}
+.page-policies .pl-vid img{width:112px;aspect-ratio:16/9;object-fit:cover;border-radius:8px}
+.page-policies .pl-vid span{display:flex;flex-direction:column;gap:.15rem;font-size:.92rem}
+.page-policies .pl-vid small{color:var(--muted)}
+.page-policies .pl-steps,.page-policies .pl-chips{display:flex;flex-wrap:wrap;gap:.4rem}
+.page-policies .pl-steps small{width:100%;color:var(--muted);font-weight:700}
+.page-policies .pl-steps .chip,.page-policies .pl-chips .chip{display:inline-flex;align-items:center;gap:.35rem;min-height:2.4rem;padding:0 .9rem;text-decoration:none;color:var(--ink);background:var(--surface,#fff)}
+.page-policies .pl-steps em{font-style:normal;color:var(--blue);font-size:.85rem}
+@media (max-width:900px){.page-policies .pl-list{grid-template-columns:1fr}.page-policies .pl-detail{grid-template-columns:1fr}.page-policies .pl-search{flex-direction:column}}
+.page-policies .pl-cross{display:flex;align-items:center;gap:.35rem;color:var(--blue-dark);font-weight:700;font-size:.92rem;margin:0 0 .8rem}

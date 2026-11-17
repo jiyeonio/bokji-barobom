@@ -1,0 +1,40 @@
+{
+ "youtubeId": "2VYwU4zPaUc",
+ "status": "auto",
+ "source": "make_chapters",
+ "chapters": [
+  {
+   "id": "s3_2",
+   "start": 75.5,
+   "end": 139.9,
+   "title": "실명인증 및 가족정보 불러오기",
+   "short": "실명인증 및 가",
+   "step": 3,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "복지서비스 신청 상단 메뉴로 들어가면 신청 가능한 복지서비스를 확인할 수 있는데요. 하단에 위치한 요금감면 서비스를 선택하시고 안내 사항을 확인하신 후 하단에 저장 후 다음 단계 버튼을 클릭하여 이동합니다. 요금 감",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 1.0
+  },
+  {
+   "id": "s3_3",
+   "start": 139.9,
+   "end": 264.8,
+   "title": "요금감면 신청 페이지",
+   "short": "요금감면 신청 ",
+   "step": 3,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "그렇다면 하단의 유의사항을 끝까지 읽으신 후 동의함을 선택, 저장 후 다음 단계 버튼을 클릭합니다. 그러면 이렇게 요금감면 서비스 신청 페이지로 들어오게 되는데요. 먼저 서비스 신청 대상자를 선택합니다. 그 다음 자",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 1.0
+  }
+ ],
+ "generatedAt": "2026-11-15 04:55"
+}

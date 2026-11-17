@@ -1,0 +1,51 @@
+{
+ "youtubeId": "2VYwU4zPaUc",
+ "generatedAt": "2026-11-15 04:55",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 50.5,
+   "title": "요금감면 서비스란?",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 50.5,
+   "end": 75.5,
+   "title": "복지로 홈페이지 진입",
+   "step": 3,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.007
+  },
+  {
+   "start": 75.5,
+   "end": 139.9,
+   "title": "실명인증 및 가족정보 불러오기",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 139.9,
+   "end": 264.8,
+   "title": "요금감면 신청 페이지",
+   "step": 3,
+   "stepConfident": true,
+   "why": "통과",
+   "pYes": 1.0
+  },
+  {
+   "start": 264.8,
+   "end": 291.0,
+   "title": "신청 후 내역 확인 안내",
+   "step": 4,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.0
+  }
+ ]
+}

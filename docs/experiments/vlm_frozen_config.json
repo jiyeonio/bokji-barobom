@@ -1,0 +1,43 @@
+{
+ "frozen_at": "2026-11-15",
+ "frozen_commit": "f18fa97",
+ "final_candidate": "N3",
+ "n3": {
+  "desc": "자막 MiniLM(파인튜닝) 상위 5 + LoRA 화면 검색 상위 3(시작 4초 앞당김), 점수 = z(자막) + 0.25 × z(화면), N1 후보 없음",
+  "combo": {
+   "frame": "lora",
+   "rule": "fusion",
+   "K": 5,
+   "w_frame": 0.25,
+   "w_mr": 0.0,
+   "shift": 4.0
+  },
+  "subtitle_model": "파인튜닝 MiniLM (backend/.env SCENEFINDER_MINILM_MODEL_PATH, 서비스와 같은 모델)",
+  "subtitle_widen": {
+   "pad_before": 2.0,
+   "min_len": 6.0
+  },
+  "frame_encoder": "Qwen/Qwen3-VL-Embedding-2B + LoRA",
+  "lora_adapter": "lora_runs/welfare/ep1/adapter.pt",
+  "lora_adapter_sha256": "6ba156b5e919a1d9fd0664395e35a9df0f2228d7b68b903084514f411a17d384",
+  "frame_features": "2초 칸 가운데 프레임, 640×360, CPU 디코딩 + GPU 전처리, 묶음 16 (칸 수는 CLIP 특징과 같음)",
+  "frame_rank": "평활(앞뒤 1칸) → 상위 8칸 → 가장 긴 연속 구간 (eval_v2 (c))",
+  "query_instruction": "Retrieve images or video frames relevant to the user's query.",
+  "lora_test_features_dir": "eval_features/qwen_640_lora_welfare_ep1"
+ },
+ "n3_vlm": {
+  "desc": "N3 상위 5개를 로컬 Qwen3-VL-4B-Instruct로 재판별 (참고 설정, 판정에 쓰지 않음)",
+  "model": "Qwen/Qwen3-VL-4B-Instruct",
+  "K": 5,
+  "prompt": "A",
+  "comb": "mix",
+  "frames_per_candidate": 3
+ },
+ "baselines": {
+  "B1": "자막 검색 파인튜닝 MiniLM + 서비스 구간 보정",
+  "B2": "NLLB 한→영 + Moment-DETR CLIP 버전(main 체크포인트, predict_moments_hybrid)",
+  "B3": "main 서비스 predict_moments_fusion 그대로"
+ },
+ "no_answer_filter": "적용 안 함(2026-11-12 사용자 결정, 한계로 기록)",
+ "criteria": "vlm_model_plan.md 5장: 최종 후보 N3가 B3보다 R@1 IoU≥0.3 +6개 이상, R@3·시작 ±5초가 3개 넘게 나빠지지 않음, 질의 p95 ≤ 1초, 특징 추출 ≤ 1.5초/영상 1분"
+}

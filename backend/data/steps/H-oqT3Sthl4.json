@@ -1,0 +1,24 @@
+{
+ "youtubeId": "H-oqT3Sthl4",
+ "status": "auto",
+ "source": "make_chapters",
+ "chapters": [
+  {
+   "id": "s1_1",
+   "start": 63.5,
+   "end": 97.1,
+   "title": "기준 중위소득 120% 이하 신청 가",
+   "short": "기준 중위소득 ",
+   "step": 1,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "신청이 가능하다고 하니까요. 지금 바로 신청하세요. 다음 사연은요. 닉네임들이 다 재밌어요. 용마산 쌍봉나타님이 보내주셨어요. 쌍봉나타님. 진짜 좋은 정책이네요. 그래도 소득이 있으면 이런 정책은 다 못 받더라고요.",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 0.958
+  }
+ ],
+ "generatedAt": "2026-11-15 04:56"
+}

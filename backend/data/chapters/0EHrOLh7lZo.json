@@ -1,0 +1,33 @@
+{
+ "youtubeId": "0EHrOLh7lZo",
+ "generatedAt": "2026-11-15 04:56",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 88.8,
+   "title": "부모님과 거주 여부 확인",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: 10초 이후",
+   "pYes": 1.0
+  },
+  {
+   "start": 88.8,
+   "end": 115.5,
+   "title": "모의계산 서비스 안내",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 115.5,
+   "end": 148.0,
+   "title": "8월 전에 미리 준비해요!",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  }
+ ]
+}

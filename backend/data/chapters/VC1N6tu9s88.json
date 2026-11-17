@@ -1,0 +1,43 @@
+{
+ "youtubeId": "VC1N6tu9s88",
+ "generatedAt": "2026-11-15 04:56",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 79.7,
+   "title": "방문자 현황 작성 및 신분증 확인",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말, 10초 이후",
+   "pYes": 0.0
+  },
+  {
+   "start": 79.7,
+   "end": 132.2,
+   "title": "선별검진 시",
+   "step": 2,
+   "stepConfident": false,
+   "why": "미달: 자막에 단계 낱말",
+   "pYes": 0.999
+  },
+  {
+   "start": 132.2,
+   "end": 154.4,
+   "title": "정기검진 안내 및 예약",
+   "step": 4,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 154.4,
+   "end": 257.0,
+   "title": "정밀검진 서비스 안내",
+   "step": 4,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7, 자막에 단계 낱말",
+   "pYes": 0.0
+  }
+ ]
+}

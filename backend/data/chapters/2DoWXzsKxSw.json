@@ -1,0 +1,49 @@
+{
+ "youtubeId": "2DoWXzsKxSw",
+ "generatedAt": "2026-11-15 04:55",
+ "method": "auto",
+ "chapters": [
+  {
+   "start": 0.0,
+   "end": 87.4,
+   "title": "청년 주거 고민 해결 대안",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 87.4,
+   "end": 115.5,
+   "title": "서울가좌 행복주택 사례",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  },
+  {
+   "start": 115.5,
+   "end": 180.5,
+   "title": "행복주택 자격 조건",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.001
+  },
+  {
+   "start": 180.5,
+   "end": 286.7,
+   "title": "자격 진단 및 공고 확인",
+   "step": 1,
+   "stepConfident": false,
+   "why": "미달: P(예)≥0.7",
+   "pYes": 0.0
+  },
+  {
+   "start": 286.7,
+   "end": 308.0,
+   "title": "LH 청약플러스 활용 안내",
+   "step": null,
+   "stepConfident": false,
+   "why": ""
+  }
+ ]
+}

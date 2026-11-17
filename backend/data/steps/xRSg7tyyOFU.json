@@ -1,0 +1,24 @@
+{
+ "youtubeId": "xRSg7tyyOFU",
+ "status": "auto",
+ "source": "make_chapters",
+ "chapters": [
+  {
+   "id": "s2_4",
+   "start": 207.2,
+   "end": 305.0,
+   "title": "고시원/오피스텔도 지원",
+   "short": "고시원/오피스텔",
+   "step": 2,
+   "stepLabel": "",
+   "verification": "none",
+   "subtitle": "어떻게 신청할 수 있는지 궁금하실 텐데요 신청 방법 어렵지 않아요 기본 서류는 확정일자가 날인된 임대차 계약서 사본 일부인데요 원룸, 다가구 주택, 무보증 월세 등 확정일자 날인을 받을 수 없는 경우는 공인중개사가 ",
+   "screenTitle": "",
+   "relatedDocs": [],
+   "confident": true,
+   "confidence": "통과",
+   "pYes": 1.0
+  }
+ ],
+ "generatedAt": "2026-11-15 04:55"
+}
