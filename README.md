@@ -3,7 +3,7 @@
 궁금한 복지 내용을 말하듯 검색하면, 공식 복지 안내 영상에서 그 내용이 나오는 **장면부터 바로 재생**하고 옆에 **공식 정책 정보**(지원대상·선정기준·구비서류·신청방법·문의처·출처·기준일)를 함께 보여 주는 AI 복지 안내 서비스입니다.
 
 - 저장소: https://github.com/jiyeonio/bokji-barobom
-- 시연 영상: https://www.youtube.com/watch?v=nqQNDIDiAKc
+- 시연 영상: https://youtu.be/KxQUXANybc0
 
 자연어 영상 구간 검색 서비스 **SceneFinder**(MiniLM·Moment-DETR 기반)를 복지 분야로 넓히고, 화면 검색을 VLM(Qwen3-VL 계열)으로 바꾼 버전입니다.
 
